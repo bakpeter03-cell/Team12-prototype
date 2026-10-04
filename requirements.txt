@@ -1,0 +1,10 @@
+# Python packages needed for this prototype.
+# Install them with:  pip3 install -r requirements.txt
+#
+# Note: data_generator.py does NOT need any of these.
+# They are needed from Stage 5 onwards, when we build the Streamlit app.
+
+streamlit>=1.49
+pandas>=2.0
+altair>=5.0
+jinja2>=3.1.2

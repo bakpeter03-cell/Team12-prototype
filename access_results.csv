@@ -1,0 +1,601 @@
+test_id,project_id,material,delay_days,project_size,cases_used,cases_from_own_project,projects_drawn_from,measured_similarity,baseline_error,history_error,blended_error,true_best_action,baseline_recommendation,blended_recommendation,recommendation_changed,baseline_correct,blended_correct,condition,condition_description,pool_size
+T001,P16,Roofing membrane,12,Small,3,3,1,87,3567,900,1800,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,30
+T002,P09,HVAC rooftop units,4,Large,3,3,1,80,15667,5400,10533,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,20
+T003,P17,Electrical switchgear,10,Medium,3,3,1,68,20600,17267,18967,Accept,Switch,Switch,0,0,0,Own site only,only this project's own past cases,21
+T004,P17,Concrete & masonry,12,Medium,3,3,1,97,8800,2767,4233,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,21
+T005,P15,Electrical switchgear,14,Large,3,3,1,77,33367,10367,21867,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,22
+T006,P14,Concrete & masonry,13,Medium,3,3,1,98,10267,633,5467,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,28
+T007,P05,Lighting,7,Medium,3,3,1,81,7367,2400,4867,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,15
+T008,P02,Electrical switchgear,4,Medium,3,3,1,86,13700,2033,7667,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,14
+T009,P04,Lighting,14,Small,3,3,1,81,2900,767,1500,Switch,Accept,Switch,1,0,1,Own site only,only this project's own past cases,22
+T010,P15,Lighting,3,Large,3,3,1,97,9267,1100,4900,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,22
+T011,P05,Lighting,7,Medium,3,3,1,81,7167,2733,4933,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,15
+T012,P15,Roofing membrane,11,Large,3,3,1,69,17200,8433,12800,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,22
+T013,P07,HVAC rooftop units,11,Small,3,3,1,70,3800,2467,3033,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T014,P05,Structural steel,12,Medium,3,3,1,97,6700,3000,4867,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,15
+T015,P10,Roofing membrane,12,Small,3,3,1,71,4333,600,2467,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,24
+T016,P14,Electrical switchgear,7,Medium,3,3,1,69,14033,7567,10800,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,28
+T017,P05,HVAC rooftop units,11,Medium,3,3,1,84,4267,2900,3567,Accept,Switch,Accept,1,0,1,Own site only,only this project's own past cases,15
+T018,P07,Structural steel,3,Small,3,3,1,93,867,400,633,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T019,P03,Concrete & masonry,4,Large,3,3,1,97,12033,1933,6467,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,22
+T020,P20,Concrete & masonry,9,Medium,3,3,1,70,11533,2600,7067,Switch,Accept,Switch,1,0,1,Own site only,only this project's own past cases,23
+T021,P06,Roofing membrane,2,Large,3,3,1,83,9833,2267,6067,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,10
+T022,P18,HVAC rooftop units,11,Large,3,3,1,78,14733,8533,11633,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,22
+T023,P11,Concrete & masonry,2,Medium,3,3,1,97,5400,733,3033,Expedite,Accept,Expedite,1,0,1,Own site only,only this project's own past cases,21
+T024,P20,Electrical switchgear,10,Medium,3,3,1,88,18767,600,9700,Accept,Switch,Accept,1,0,1,Own site only,only this project's own past cases,23
+T025,P07,Structural steel,10,Small,3,3,1,92,800,1833,1333,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T026,P05,Roofing membrane,3,Medium,3,3,1,57,8433,11333,9933,Expedite,Accept,Accept,0,0,0,Own site only,only this project's own past cases,15
+T027,P17,Structural steel,11,Medium,3,3,1,99,2133,1533,1500,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,21
+T028,P16,HVAC rooftop units,13,Small,3,3,1,92,4667,1167,2100,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,30
+T029,P18,Lighting,11,Large,3,3,1,96,8833,4067,5100,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,22
+T030,P14,Concrete & masonry,15,Medium,3,3,1,96,11833,1500,6700,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,28
+T031,P09,Structural steel,3,Large,3,3,1,95,2767,1400,1600,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,20
+T032,P14,Electrical switchgear,3,Medium,3,3,1,71,10533,9067,9800,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,28
+T033,P01,Lighting,4,Small,3,3,1,84,1067,300,667,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,15
+T034,P07,HVAC rooftop units,10,Small,3,3,1,72,3267,4600,3933,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T035,P04,Roofing membrane,7,Small,3,3,1,92,3133,367,1467,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T036,P06,Electrical switchgear,15,Large,3,3,1,78,35433,20233,27833,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,10
+T037,P10,Lighting,9,Small,3,3,1,92,2467,1000,1367,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,24
+T038,P07,Structural steel,11,Small,3,3,1,91,1700,1000,1267,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T039,P07,Lighting,7,Small,3,3,1,72,2300,233,1200,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T040,P18,Roofing membrane,13,Large,3,3,1,87,18767,2867,10033,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,22
+T041,P10,Roofing membrane,11,Small,3,3,1,70,3167,733,1800,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,24
+T042,P16,Lighting,1,Small,3,3,1,82,2033,400,967,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,30
+T043,P05,Concrete & masonry,7,Medium,3,3,1,62,10467,11033,10767,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,15
+T044,P17,Roofing membrane,14,Medium,3,3,1,83,8267,2233,4633,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,21
+T045,P13,HVAC rooftop units,14,Small,3,3,1,83,6267,3500,4700,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,21
+T046,P06,Lighting,11,Large,3,3,1,70,9033,6933,7467,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,10
+T047,P18,Roofing membrane,12,Large,3,3,1,90,15400,2400,8300,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,22
+T048,P05,Electrical switchgear,12,Medium,3,3,1,92,11733,4267,6067,Accept,Switch,Accept,1,0,1,Own site only,only this project's own past cases,15
+T049,P12,Structural steel,6,Large,3,3,1,83,7367,5267,4733,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,20
+T050,P17,Electrical switchgear,9,Medium,3,3,1,70,16033,10167,13100,Accept,Switch,Accept,1,0,1,Own site only,only this project's own past cases,21
+T051,P20,Concrete & masonry,3,Medium,3,3,1,68,8633,6333,7433,Expedite,Accept,Accept,0,0,0,Own site only,only this project's own past cases,23
+T052,P17,HVAC rooftop units,11,Medium,3,3,1,90,9100,2467,3333,Accept,Switch,Switch,0,0,0,Own site only,only this project's own past cases,21
+T053,P11,Electrical switchgear,9,Medium,3,3,1,84,18067,400,9200,Accept,Switch,Accept,1,0,1,Own site only,only this project's own past cases,21
+T054,P07,Electrical switchgear,12,Small,3,3,1,82,9133,1200,4833,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T055,P11,Lighting,6,Medium,3,3,1,74,3267,2533,1367,Accept,Accept,Expedite,1,1,0,Own site only,only this project's own past cases,21
+T056,P11,Roofing membrane,3,Medium,3,3,1,91,3767,1367,1600,Expedite,Accept,Expedite,1,0,1,Own site only,only this project's own past cases,21
+T057,P06,Concrete & masonry,13,Large,3,3,1,70,19567,23100,21100,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,10
+T058,P07,Electrical switchgear,3,Small,3,3,1,89,4033,2433,1633,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T059,P14,Roofing membrane,2,Medium,3,3,1,85,4167,200,2067,Expedite,Accept,Expedite,1,0,1,Own site only,only this project's own past cases,28
+T060,P04,HVAC rooftop units,11,Small,3,3,1,91,4367,2100,3233,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T061,P16,Structural steel,12,Small,3,3,1,98,1600,1233,1400,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,30
+T062,P04,Lighting,11,Small,3,3,1,89,2867,1067,1567,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T063,P16,HVAC rooftop units,10,Small,3,3,1,98,5533,1733,3600,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,30
+T064,P04,Concrete & masonry,4,Small,3,3,1,69,3233,433,1500,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T065,P14,Roofing membrane,13,Medium,3,3,1,92,10100,2900,6500,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,28
+T066,P02,Concrete & masonry,6,Medium,3,3,1,89,7900,1067,4500,Switch,Accept,Expedite,1,0,0,Own site only,only this project's own past cases,14
+T067,P09,Concrete & masonry,3,Large,3,3,1,91,6600,1667,3533,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,20
+T068,P08,Concrete & masonry,11,Medium,3,3,1,88,9233,1500,4867,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,20
+T069,P05,Roofing membrane,6,Medium,3,3,1,57,9300,11300,10300,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,15
+T070,P03,Roofing membrane,1,Large,3,3,1,67,7567,1667,4667,Accept,Expedite,Expedite,0,0,0,Own site only,only this project's own past cases,22
+T071,P20,HVAC rooftop units,2,Medium,3,3,1,94,2833,1400,2100,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,23
+T072,P13,HVAC rooftop units,5,Small,3,3,1,85,4933,2200,3567,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,21
+T073,P05,Roofing membrane,6,Medium,3,3,1,57,9967,12100,11033,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,15
+T074,P05,Lighting,7,Medium,3,3,1,81,6500,2067,4267,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,15
+T075,P13,Electrical switchgear,3,Small,3,3,1,87,6500,2267,4400,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,21
+T076,P04,Electrical switchgear,5,Small,3,3,1,74,6933,633,3800,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T077,P12,Concrete & masonry,6,Large,3,3,1,94,7900,2133,4667,Switch,Expedite,Switch,1,0,1,Own site only,only this project's own past cases,20
+T078,P05,Structural steel,2,Medium,3,3,1,91,3333,400,1733,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,15
+T079,P19,Lighting,14,Small,3,3,1,84,4767,1300,3033,Switch,Accept,Switch,1,0,1,Own site only,only this project's own past cases,14
+T080,P19,Lighting,4,Small,3,3,1,84,2867,400,1467,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,14
+T081,P10,Lighting,1,Small,3,3,1,77,2400,633,1533,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,24
+T082,P07,Electrical switchgear,5,Small,3,3,1,91,6733,600,3367,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T083,P03,Roofing membrane,4,Large,3,3,1,72,9433,1967,4600,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,22
+T084,P06,Roofing membrane,2,Large,3,3,1,83,9600,2033,5833,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,10
+T085,P18,Lighting,5,Large,3,3,1,90,6367,2067,3233,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,22
+T086,P11,Structural steel,3,Medium,3,3,1,65,1167,1367,1300,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,21
+T087,P17,Electrical switchgear,13,Medium,3,3,1,64,18133,16800,17467,Accept,Switch,Switch,0,0,0,Own site only,only this project's own past cases,21
+T088,P07,Concrete & masonry,14,Small,3,3,1,79,4867,800,2300,Switch,Accept,Switch,1,0,1,Own site only,only this project's own past cases,16
+T089,P07,Structural steel,4,Small,3,3,1,94,467,633,400,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T090,P13,Lighting,1,Small,3,3,1,95,1333,300,733,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,21
+T091,P05,Concrete & masonry,5,Medium,3,3,1,63,9267,10100,9667,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,15
+T092,P06,Lighting,13,Large,3,3,1,70,13733,17567,15633,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,10
+T093,P19,Electrical switchgear,10,Small,3,3,1,86,8900,2767,5833,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,14
+T094,P20,Roofing membrane,11,Medium,3,3,1,96,11700,2600,6967,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,23
+T095,P08,Structural steel,5,Medium,3,3,1,80,1833,3033,1800,Accept,Accept,Expedite,1,1,0,Own site only,only this project's own past cases,20
+T096,P19,Lighting,13,Small,3,3,1,84,3533,933,1733,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,14
+T097,P20,Electrical switchgear,2,Medium,3,3,1,92,12100,1467,6733,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,23
+T098,P05,Concrete & masonry,7,Medium,3,3,1,62,9967,10533,10267,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,15
+T099,P19,HVAC rooftop units,15,Small,3,3,1,71,3633,3000,3000,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,14
+T100,P04,Structural steel,12,Small,3,3,1,94,1233,933,867,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T101,P10,Structural steel,10,Small,3,3,1,94,1933,967,1367,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,24
+T102,P02,HVAC rooftop units,2,Medium,3,3,1,78,3400,3100,3267,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,14
+T103,P02,Concrete & masonry,6,Medium,3,3,1,89,8267,1033,4667,Switch,Accept,Expedite,1,0,0,Own site only,only this project's own past cases,14
+T104,P03,Electrical switchgear,2,Large,3,3,1,67,15267,3367,6433,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,22
+T105,P04,Structural steel,7,Small,3,3,1,93,1100,1033,1033,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T106,P16,Electrical switchgear,13,Small,3,3,1,87,8100,1467,3433,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,30
+T107,P12,Electrical switchgear,1,Large,3,3,1,56,17333,15767,16567,Accept,Expedite,Expedite,0,0,0,Own site only,only this project's own past cases,20
+T108,P02,Concrete & masonry,5,Medium,3,3,1,88,7800,833,4333,Expedite,Accept,Expedite,1,0,1,Own site only,only this project's own past cases,14
+T109,P07,Structural steel,1,Small,3,3,1,89,833,400,633,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T110,P08,Structural steel,12,Medium,3,3,1,79,1800,8000,4900,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,20
+T111,P13,HVAC rooftop units,12,Small,3,3,1,87,5833,4233,4267,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,21
+T112,P08,Roofing membrane,5,Medium,3,3,1,57,5933,1067,2633,Expedite,Accept,Expedite,1,0,1,Own site only,only this project's own past cases,20
+T113,P02,Electrical switchgear,8,Medium,3,3,1,96,11633,3867,4667,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,14
+T114,P15,Lighting,10,Large,3,3,1,88,16067,5000,9567,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,22
+T115,P06,Concrete & masonry,15,Large,3,3,1,68,22133,27400,24733,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,10
+T116,P11,Electrical switchgear,9,Medium,3,3,1,84,17800,1000,9000,Accept,Switch,Accept,1,0,1,Own site only,only this project's own past cases,21
+T117,P10,Structural steel,2,Small,3,3,1,73,933,367,667,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,24
+T118,P03,Lighting,13,Large,3,3,1,72,14100,14733,14400,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,22
+T119,P02,Structural steel,13,Medium,3,3,1,75,2433,2600,1200,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,14
+T120,P03,Concrete & masonry,2,Large,3,3,1,91,9033,1400,4967,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,22
+T121,P01,Concrete & masonry,12,Small,3,3,1,84,4167,1133,2433,Switch,Accept,Switch,1,0,1,Own site only,only this project's own past cases,15
+T122,P02,Roofing membrane,10,Medium,3,3,1,76,8367,7100,7767,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,14
+T123,P16,Lighting,12,Small,3,3,1,69,2400,2433,2433,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,30
+T124,P04,Structural steel,2,Small,3,3,1,98,1133,667,867,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T125,P15,Concrete & masonry,3,Large,3,3,1,85,12800,2167,6167,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,22
+T126,P06,Roofing membrane,2,Large,3,3,1,83,9300,1733,5533,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,10
+T127,P13,Concrete & masonry,14,Small,3,3,1,87,4600,767,2700,Switch,Accept,Switch,1,0,1,Own site only,only this project's own past cases,21
+T128,P14,Electrical switchgear,15,Medium,3,3,1,63,24933,20267,22600,Accept,Switch,Switch,0,0,0,Own site only,only this project's own past cases,28
+T129,P12,Structural steel,12,Large,3,3,1,78,10300,8000,6433,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,20
+T130,P17,Electrical switchgear,5,Medium,3,3,1,72,13900,8600,11233,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,21
+T131,P01,Lighting,9,Small,3,3,1,97,1700,933,1300,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,15
+T132,P15,Concrete & masonry,11,Large,3,3,1,97,20100,2167,9000,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,22
+T133,P05,Concrete & masonry,5,Medium,3,3,1,63,9767,10600,10167,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,15
+T134,P11,Electrical switchgear,15,Medium,3,3,1,79,21633,2100,11000,Accept,Switch,Switch,0,0,0,Own site only,only this project's own past cases,21
+T135,P15,Structural steel,3,Large,3,3,1,73,700,4800,2733,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,22
+T136,P04,Electrical switchgear,12,Small,3,3,1,93,9900,2133,6033,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T137,P12,Roofing membrane,11,Large,3,3,1,99,8400,1200,3767,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,20
+T138,P05,Electrical switchgear,10,Medium,3,3,1,90,13033,1667,7067,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,15
+T139,P12,Lighting,3,Large,3,3,1,89,1767,1167,900,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,20
+T140,P01,Lighting,4,Small,3,3,1,84,1500,733,1100,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,15
+T141,P16,HVAC rooftop units,12,Small,3,3,1,93,4500,1733,2033,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,30
+T142,P08,Electrical switchgear,1,Medium,3,3,1,97,7733,600,4133,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,20
+T143,P19,Lighting,14,Small,3,3,1,84,4033,1433,2233,Switch,Accept,Switch,1,0,1,Own site only,only this project's own past cases,14
+T144,P16,Electrical switchgear,14,Small,3,3,1,89,8033,1867,3300,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,30
+T145,P04,Lighting,11,Small,3,3,1,89,1800,1067,833,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T146,P04,Lighting,5,Small,3,3,1,89,1700,733,667,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T147,P11,Electrical switchgear,9,Medium,3,3,1,84,13900,4700,5100,Accept,Switch,Accept,1,0,1,Own site only,only this project's own past cases,21
+T148,P04,Concrete & masonry,3,Small,3,3,1,68,3367,933,2133,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T149,P10,Electrical switchgear,15,Small,3,3,1,95,7933,4133,2633,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,24
+T150,P11,Electrical switchgear,12,Medium,3,3,1,81,21833,2433,12133,Accept,Switch,Accept,1,0,1,Own site only,only this project's own past cases,21
+T151,P05,Concrete & masonry,9,Medium,3,3,1,67,11433,10467,10967,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,15
+T152,P12,Concrete & masonry,4,Large,3,3,1,92,7033,1400,3700,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,20
+T153,P09,Electrical switchgear,14,Large,3,3,1,62,41933,38267,40133,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,20
+T154,P19,Lighting,2,Small,3,3,1,84,2933,300,1600,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,14
+T155,P03,Electrical switchgear,5,Large,3,3,1,68,21033,7633,14367,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,22
+T156,P16,Electrical switchgear,13,Small,3,3,1,87,10400,1767,5600,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,30
+T157,P18,Concrete & masonry,7,Large,3,3,1,90,15233,2267,8300,Switch,Expedite,Switch,1,0,1,Own site only,only this project's own past cases,22
+T158,P07,HVAC rooftop units,6,Small,3,3,1,70,2700,2500,2600,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T159,P17,Roofing membrane,5,Medium,3,3,1,90,5833,1033,3100,Expedite,Accept,Expedite,1,0,1,Own site only,only this project's own past cases,21
+T160,P18,Structural steel,12,Large,3,3,1,71,8900,4067,4600,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,22
+T161,P04,Lighting,15,Small,3,3,1,79,3200,933,1833,Switch,Accept,Switch,1,0,1,Own site only,only this project's own past cases,22
+T162,P01,Concrete & masonry,12,Small,3,3,1,84,3333,767,1600,Switch,Accept,Switch,1,0,1,Own site only,only this project's own past cases,15
+T163,P12,Structural steel,3,Large,3,3,1,88,5700,1167,2833,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,20
+T164,P07,HVAC rooftop units,13,Small,3,3,1,67,3600,4067,3867,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T165,P05,HVAC rooftop units,2,Medium,3,3,1,89,2233,1300,1767,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,15
+T166,P16,Lighting,5,Small,3,3,1,83,2000,867,1300,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,30
+T167,P16,Structural steel,10,Small,3,3,1,94,800,500,633,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,30
+T168,P12,Electrical switchgear,5,Large,3,3,1,60,32500,29700,31100,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,20
+T169,P19,HVAC rooftop units,11,Small,3,3,1,78,2300,1000,900,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,14
+T170,P04,HVAC rooftop units,3,Small,3,3,1,90,2867,1133,2000,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T171,P16,Roofing membrane,3,Small,3,3,1,97,2433,400,1033,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,30
+T172,P11,Roofing membrane,5,Medium,3,3,1,94,4500,867,1900,Expedite,Accept,Expedite,1,0,1,Own site only,only this project's own past cases,21
+T173,P02,Concrete & masonry,3,Medium,3,3,1,82,6800,633,3600,Expedite,Accept,Expedite,1,0,1,Own site only,only this project's own past cases,14
+T174,P06,Structural steel,14,Large,3,3,1,81,8067,16567,12300,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,10
+T175,P09,Electrical switchgear,2,Large,3,3,1,73,20167,19000,19467,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,20
+T176,P20,HVAC rooftop units,9,Medium,3,3,1,89,8700,3967,6333,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,23
+T177,P04,Structural steel,3,Small,3,3,1,99,567,100,333,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T178,P15,Structural steel,11,Large,3,3,1,80,3200,9267,5167,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,22
+T179,P04,Roofing membrane,3,Small,3,3,1,96,2900,500,1467,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T180,P02,Structural steel,2,Medium,3,3,1,77,400,3000,1633,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,14
+T181,P04,Roofing membrane,3,Small,3,3,1,96,2900,567,1467,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T182,P16,Structural steel,5,Small,3,3,1,97,1067,500,667,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,30
+T183,P13,HVAC rooftop units,14,Small,3,3,1,83,8167,5067,6600,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,21
+T184,P15,Concrete & masonry,4,Large,3,3,1,88,14000,1067,6667,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,22
+T185,P07,HVAC rooftop units,1,Small,3,3,1,63,2700,367,1567,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T186,P20,Electrical switchgear,2,Medium,3,3,1,92,11567,933,6200,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,23
+T187,P06,Lighting,5,Large,3,3,1,63,9000,1500,4100,Expedite,Expedite,Expedite,0,1,1,Own site only,only this project's own past cases,10
+T188,P19,Concrete & masonry,12,Small,3,3,1,79,6233,2000,4133,Switch,Accept,Accept,0,0,0,Own site only,only this project's own past cases,14
+T189,P07,Roofing membrane,2,Small,3,3,1,71,2767,900,1833,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,16
+T190,P05,Structural steel,5,Medium,3,3,1,90,3233,1467,1233,Expedite,Accept,Accept,0,0,0,Own site only,only this project's own past cases,15
+T191,P11,Concrete & masonry,15,Medium,3,3,1,80,10133,1467,5833,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,21
+T192,P04,Structural steel,13,Small,3,3,1,91,1033,1333,1100,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,22
+T193,P20,Roofing membrane,12,Medium,3,3,1,99,11467,1733,6567,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,23
+T194,P19,Lighting,6,Small,3,3,1,86,2733,800,1400,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,14
+T195,P19,Concrete & masonry,13,Small,3,3,1,79,6367,1200,3800,Switch,Accept,Switch,1,0,1,Own site only,only this project's own past cases,14
+T196,P10,Roofing membrane,2,Small,3,3,1,60,3133,1933,2567,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,24
+T197,P15,Structural steel,13,Large,3,3,1,79,8200,12567,10400,Switch,Switch,Switch,0,1,1,Own site only,only this project's own past cases,22
+T198,P11,Roofing membrane,4,Medium,3,3,1,92,5100,700,2800,Expedite,Accept,Expedite,1,0,1,Own site only,only this project's own past cases,21
+T199,P08,Structural steel,2,Medium,3,3,1,75,900,3800,2233,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,20
+T200,P16,Lighting,9,Small,3,3,1,75,2400,933,1133,Accept,Accept,Accept,0,1,1,Own site only,only this project's own past cases,30
+T001,P16,Roofing membrane,12,Small,3,0,2,96,2967,1067,1733,Switch,Accept,Switch,1,0,1,Other sites only,"the shared pool, excluding this project",370
+T002,P09,HVAC rooftop units,4,Large,3,0,3,99,12600,2367,6733,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T003,P17,Electrical switchgear,10,Medium,3,0,2,96,21700,8633,15167,Accept,Switch,Accept,1,0,1,Other sites only,"the shared pool, excluding this project",379
+T004,P17,Concrete & masonry,12,Medium,3,0,2,97,9300,4233,4333,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",379
+T005,P15,Electrical switchgear,14,Large,3,0,3,100,44200,9967,27067,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T006,P14,Concrete & masonry,13,Medium,3,0,2,97,11367,1000,6167,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",372
+T007,P05,Lighting,7,Medium,3,0,2,97,6233,433,3200,Switch,Accept,Accept,0,0,0,Other sites only,"the shared pool, excluding this project",385
+T008,P02,Electrical switchgear,4,Medium,3,0,3,97,12700,3233,7500,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",386
+T009,P04,Lighting,14,Small,3,0,2,100,3667,867,2233,Switch,Accept,Switch,1,0,1,Other sites only,"the shared pool, excluding this project",378
+T010,P15,Lighting,3,Large,3,0,2,99,4400,267,2100,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T011,P05,Lighting,7,Medium,3,0,2,97,5767,1433,2733,Switch,Accept,Accept,0,0,0,Other sites only,"the shared pool, excluding this project",385
+T012,P15,Roofing membrane,11,Large,3,0,3,100,12000,7067,6967,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T013,P07,HVAC rooftop units,11,Small,3,0,2,98,3633,1267,2167,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T014,P05,Structural steel,12,Medium,3,0,2,97,6000,8033,7000,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",385
+T015,P10,Roofing membrane,12,Small,3,0,2,96,3700,200,1967,Switch,Accept,Switch,1,0,1,Other sites only,"the shared pool, excluding this project",376
+T016,P14,Electrical switchgear,7,Medium,3,0,2,99,12667,2700,6567,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",372
+T017,P05,HVAC rooftop units,11,Medium,3,0,2,96,6133,3500,2167,Accept,Switch,Switch,0,0,0,Other sites only,"the shared pool, excluding this project",385
+T018,P07,Structural steel,3,Small,3,0,2,100,1067,800,900,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T019,P03,Concrete & masonry,4,Large,3,0,3,97,14167,5200,9667,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T020,P20,Concrete & masonry,9,Medium,3,0,2,95,6900,2033,2633,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",377
+T021,P06,Roofing membrane,2,Large,3,0,2,99,8833,2033,5367,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",390
+T022,P18,HVAC rooftop units,11,Large,3,0,3,98,14833,2800,8800,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T023,P11,Concrete & masonry,2,Medium,3,0,2,97,7100,700,3933,Expedite,Accept,Expedite,1,0,1,Other sites only,"the shared pool, excluding this project",379
+T024,P20,Electrical switchgear,10,Medium,3,0,2,96,24267,10500,17367,Accept,Switch,Accept,1,0,1,Other sites only,"the shared pool, excluding this project",377
+T025,P07,Structural steel,10,Small,3,0,2,99,400,233,133,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T026,P05,Roofing membrane,3,Medium,3,0,3,99,6900,2000,4467,Expedite,Accept,Expedite,1,0,1,Other sites only,"the shared pool, excluding this project",385
+T027,P17,Structural steel,11,Medium,3,0,3,98,3500,2567,2400,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",379
+T028,P16,HVAC rooftop units,13,Small,3,0,2,98,5300,1900,3567,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",370
+T029,P18,Lighting,11,Large,3,0,3,97,9933,10367,10067,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T030,P14,Concrete & masonry,15,Medium,3,0,3,98,12933,1133,6800,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",372
+T031,P09,Structural steel,3,Large,3,0,2,96,800,4300,2300,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T032,P14,Electrical switchgear,3,Medium,3,0,2,99,9467,467,4467,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",372
+T033,P01,Lighting,4,Small,3,0,3,97,2867,867,1833,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",385
+T034,P07,HVAC rooftop units,10,Small,3,0,3,100,3133,1500,1300,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T035,P04,Roofing membrane,7,Small,3,0,2,97,3667,1033,2333,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T036,P06,Electrical switchgear,15,Large,3,0,2,98,37000,7200,19033,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",390
+T037,P10,Lighting,9,Small,3,0,3,98,1933,600,1167,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",376
+T038,P07,Structural steel,11,Small,3,0,3,100,1733,1667,1433,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T039,P07,Lighting,7,Small,3,0,3,97,2600,633,1400,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T040,P18,Roofing membrane,13,Large,3,0,3,97,11500,2300,5267,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T041,P10,Roofing membrane,11,Small,3,0,2,97,2567,433,1167,Switch,Accept,Accept,0,0,0,Other sites only,"the shared pool, excluding this project",376
+T042,P16,Lighting,1,Small,3,0,2,98,1767,300,1033,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",370
+T043,P05,Concrete & masonry,7,Medium,3,0,1,98,9067,1100,4567,Switch,Accept,Expedite,1,0,0,Other sites only,"the shared pool, excluding this project",385
+T044,P17,Roofing membrane,14,Medium,3,0,3,97,8833,3400,4600,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",379
+T045,P13,HVAC rooftop units,14,Small,3,0,3,98,5167,400,2833,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",379
+T046,P06,Lighting,11,Large,3,0,3,98,7600,1967,3400,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",390
+T047,P18,Roofing membrane,12,Large,3,0,3,97,14233,6433,8100,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T048,P05,Electrical switchgear,12,Medium,3,0,2,98,14700,4567,6600,Accept,Switch,Accept,1,0,1,Other sites only,"the shared pool, excluding this project",385
+T049,P12,Structural steel,6,Large,3,0,2,98,2467,2233,2367,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T050,P17,Electrical switchgear,9,Medium,3,0,3,98,15867,3367,7267,Accept,Switch,Accept,1,0,1,Other sites only,"the shared pool, excluding this project",379
+T051,P20,Concrete & masonry,3,Medium,3,0,3,98,6067,900,3000,Expedite,Accept,Expedite,1,0,1,Other sites only,"the shared pool, excluding this project",377
+T052,P17,HVAC rooftop units,11,Medium,3,0,2,96,10333,2500,6033,Accept,Switch,Switch,0,0,0,Other sites only,"the shared pool, excluding this project",379
+T053,P11,Electrical switchgear,9,Medium,3,0,3,98,15933,2567,7533,Accept,Switch,Accept,1,0,1,Other sites only,"the shared pool, excluding this project",379
+T054,P07,Electrical switchgear,12,Small,3,0,3,98,8933,1567,3800,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T055,P11,Lighting,6,Medium,3,0,3,96,5167,567,2467,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",379
+T056,P11,Roofing membrane,3,Medium,3,0,3,99,5467,467,2667,Expedite,Accept,Expedite,1,0,1,Other sites only,"the shared pool, excluding this project",379
+T057,P06,Concrete & masonry,13,Large,3,0,3,100,22267,6400,14333,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",390
+T058,P07,Electrical switchgear,3,Small,3,0,2,100,3967,3167,900,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T059,P14,Roofing membrane,2,Medium,3,0,3,98,5233,467,2433,Expedite,Accept,Expedite,1,0,1,Other sites only,"the shared pool, excluding this project",372
+T060,P04,HVAC rooftop units,11,Small,3,0,2,98,3667,1833,1700,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T061,P16,Structural steel,12,Small,3,0,2,99,1800,1433,1600,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",370
+T062,P04,Lighting,11,Small,3,0,2,98,3167,1200,1933,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T063,P16,HVAC rooftop units,10,Small,3,0,2,100,6467,3133,4767,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",370
+T064,P04,Concrete & masonry,4,Small,3,0,3,98,3500,367,1567,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T065,P14,Roofing membrane,13,Medium,3,0,3,100,11200,3100,7133,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",372
+T066,P02,Concrete & masonry,6,Medium,3,0,2,100,10067,2233,6200,Switch,Accept,Expedite,1,0,0,Other sites only,"the shared pool, excluding this project",386
+T067,P09,Concrete & masonry,3,Large,3,0,3,97,9033,1067,4533,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T068,P08,Concrete & masonry,11,Medium,3,0,2,100,9967,400,4967,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T069,P05,Roofing membrane,6,Medium,3,0,3,99,8033,2233,5167,Switch,Accept,Expedite,1,0,0,Other sites only,"the shared pool, excluding this project",385
+T070,P03,Roofing membrane,1,Large,3,0,2,96,7900,1233,4400,Accept,Expedite,Expedite,0,0,0,Other sites only,"the shared pool, excluding this project",378
+T071,P20,HVAC rooftop units,2,Medium,3,0,2,99,5800,867,3167,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",377
+T072,P13,HVAC rooftop units,5,Small,3,0,3,98,4333,2700,3533,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",379
+T073,P05,Roofing membrane,6,Medium,3,0,3,99,8167,2367,5300,Switch,Accept,Expedite,1,0,0,Other sites only,"the shared pool, excluding this project",385
+T074,P05,Lighting,7,Medium,3,0,2,97,4900,1167,2067,Switch,Accept,Accept,0,0,0,Other sites only,"the shared pool, excluding this project",385
+T075,P13,Electrical switchgear,3,Small,3,0,2,97,5967,467,2967,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",379
+T076,P04,Electrical switchgear,5,Small,3,0,3,96,6767,1300,3267,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T077,P12,Concrete & masonry,6,Large,3,0,2,97,12800,3400,7500,Switch,Expedite,Expedite,0,0,0,Other sites only,"the shared pool, excluding this project",380
+T078,P05,Structural steel,2,Medium,3,0,2,99,1667,1633,1667,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",385
+T079,P19,Lighting,14,Small,3,0,2,100,2600,1033,1533,Switch,Accept,Switch,1,0,1,Other sites only,"the shared pool, excluding this project",386
+T080,P19,Lighting,4,Small,3,0,3,97,1133,733,567,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",386
+T081,P10,Lighting,1,Small,3,0,2,98,2133,667,1400,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",376
+T082,P07,Electrical switchgear,5,Small,3,0,2,94,6633,1433,3167,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T083,P03,Roofing membrane,4,Large,3,0,3,96,11567,4333,7933,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T084,P06,Roofing membrane,2,Large,3,0,2,99,8600,1667,5133,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",390
+T085,P18,Lighting,5,Large,3,0,2,98,5633,3700,3533,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T086,P11,Structural steel,3,Medium,3,0,3,99,733,67,400,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",379
+T087,P17,Electrical switchgear,13,Medium,3,0,3,98,17600,933,9067,Accept,Switch,Accept,1,0,1,Other sites only,"the shared pool, excluding this project",379
+T088,P07,Concrete & masonry,14,Small,3,0,3,97,5033,100,2533,Switch,Accept,Switch,1,0,1,Other sites only,"the shared pool, excluding this project",384
+T089,P07,Structural steel,4,Small,3,0,2,100,600,500,400,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T090,P13,Lighting,1,Small,3,0,3,95,1700,700,800,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",379
+T091,P05,Concrete & masonry,5,Medium,3,0,3,100,7400,467,3533,Switch,Accept,Expedite,1,0,0,Other sites only,"the shared pool, excluding this project",385
+T092,P06,Lighting,13,Large,3,0,3,97,16433,7933,12200,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",390
+T093,P19,Electrical switchgear,10,Small,3,0,3,96,11000,2633,6833,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",386
+T094,P20,Roofing membrane,11,Medium,3,0,3,97,8433,2167,5033,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",377
+T095,P08,Structural steel,5,Medium,3,0,3,98,1500,600,1033,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T096,P19,Lighting,13,Small,3,0,1,97,3167,2567,2833,Switch,Accept,Accept,0,0,0,Other sites only,"the shared pool, excluding this project",386
+T097,P20,Electrical switchgear,2,Medium,3,0,2,99,15067,5767,10400,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",377
+T098,P05,Concrete & masonry,7,Medium,3,0,1,98,7767,1267,3667,Switch,Accept,Expedite,1,0,0,Other sites only,"the shared pool, excluding this project",385
+T099,P19,HVAC rooftop units,15,Small,3,0,3,97,5800,3567,3267,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",386
+T100,P04,Structural steel,12,Small,3,0,3,98,2067,3000,2533,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T101,P10,Structural steel,10,Small,3,0,2,99,2000,1733,1867,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",376
+T102,P02,HVAC rooftop units,2,Medium,3,0,2,100,2867,1633,1433,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",386
+T103,P02,Concrete & masonry,6,Medium,3,0,2,100,9300,1467,5433,Switch,Accept,Expedite,1,0,0,Other sites only,"the shared pool, excluding this project",386
+T104,P03,Electrical switchgear,2,Large,3,0,3,98,14733,2067,6367,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T105,P04,Structural steel,7,Small,3,0,2,99,1633,933,1200,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T106,P16,Electrical switchgear,13,Small,3,0,1,97,9333,2367,3733,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",370
+T107,P12,Electrical switchgear,1,Large,3,0,3,97,13367,3400,6033,Accept,Expedite,Expedite,0,0,0,Other sites only,"the shared pool, excluding this project",380
+T108,P02,Concrete & masonry,5,Medium,3,0,3,100,8967,1700,5333,Expedite,Accept,Expedite,1,0,1,Other sites only,"the shared pool, excluding this project",386
+T109,P07,Structural steel,1,Small,3,0,2,96,967,467,733,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T110,P08,Structural steel,12,Medium,3,0,2,99,3300,4067,3133,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T111,P13,HVAC rooftop units,12,Small,3,0,2,99,4633,1733,3200,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",379
+T112,P08,Roofing membrane,5,Medium,3,0,2,96,7133,1567,4367,Expedite,Accept,Expedite,1,0,1,Other sites only,"the shared pool, excluding this project",380
+T113,P02,Electrical switchgear,8,Medium,3,0,3,98,11000,8200,3167,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",386
+T114,P15,Lighting,10,Large,3,0,1,97,7100,6800,6300,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T115,P06,Concrete & masonry,15,Large,3,0,2,98,20567,3233,11500,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",390
+T116,P11,Electrical switchgear,9,Medium,3,0,3,98,15800,3500,7333,Accept,Switch,Accept,1,0,1,Other sites only,"the shared pool, excluding this project",379
+T117,P10,Structural steel,2,Small,3,0,3,100,633,133,367,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",376
+T118,P03,Lighting,13,Large,3,0,3,97,18233,8767,13500,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T119,P02,Structural steel,13,Medium,3,0,2,98,6033,8233,7167,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",386
+T120,P03,Concrete & masonry,2,Large,3,0,2,99,10300,3167,6733,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T121,P01,Concrete & masonry,12,Small,3,0,3,99,6967,2533,4733,Switch,Accept,Switch,1,0,1,Other sites only,"the shared pool, excluding this project",385
+T122,P02,Roofing membrane,10,Medium,3,0,3,98,11567,5067,8300,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",386
+T123,P16,Lighting,12,Small,3,0,3,98,3067,2267,2667,Switch,Accept,Accept,0,0,0,Other sites only,"the shared pool, excluding this project",370
+T124,P04,Structural steel,2,Small,3,0,2,99,1333,1133,1200,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T125,P15,Concrete & masonry,3,Large,3,0,3,99,7133,1567,4400,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T126,P06,Roofing membrane,2,Large,3,0,2,99,8300,1367,4833,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",390
+T127,P13,Concrete & masonry,14,Small,3,0,2,96,5967,1033,3300,Switch,Accept,Switch,1,0,1,Other sites only,"the shared pool, excluding this project",379
+T128,P14,Electrical switchgear,15,Medium,3,0,2,100,23167,3367,13167,Accept,Switch,Switch,0,0,0,Other sites only,"the shared pool, excluding this project",372
+T129,P12,Structural steel,12,Large,3,0,3,99,4533,7333,5933,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T130,P17,Electrical switchgear,5,Medium,3,0,3,100,13667,667,7100,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",379
+T131,P01,Lighting,9,Small,3,0,3,97,3433,1067,2167,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",385
+T132,P15,Concrete & masonry,11,Large,3,0,3,100,12700,1000,5933,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T133,P05,Concrete & masonry,5,Medium,3,0,3,100,7567,500,3967,Switch,Accept,Expedite,1,0,0,Other sites only,"the shared pool, excluding this project",385
+T134,P11,Electrical switchgear,15,Medium,3,0,2,100,19333,3867,9367,Accept,Switch,Switch,0,0,0,Other sites only,"the shared pool, excluding this project",379
+T135,P15,Structural steel,3,Large,3,0,2,97,6367,3633,4967,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T136,P04,Electrical switchgear,12,Small,3,0,3,98,9667,1667,4533,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T137,P12,Roofing membrane,11,Large,3,0,2,100,14000,2700,6433,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T138,P05,Electrical switchgear,10,Medium,3,0,2,95,15833,4033,7667,Accept,Switch,Accept,1,0,1,Other sites only,"the shared pool, excluding this project",385
+T139,P12,Lighting,3,Large,3,0,3,100,5267,867,2833,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T140,P01,Lighting,4,Small,3,0,3,97,3300,1300,2267,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",385
+T141,P16,HVAC rooftop units,12,Small,3,0,2,99,5567,2400,4000,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",370
+T142,P08,Electrical switchgear,1,Medium,3,0,2,97,7500,2833,2967,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T143,P19,Lighting,14,Small,3,0,2,100,1933,1700,867,Switch,Accept,Switch,1,0,1,Other sites only,"the shared pool, excluding this project",386
+T144,P16,Electrical switchgear,14,Small,3,0,2,99,9333,1700,4367,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",370
+T145,P04,Lighting,11,Small,3,0,2,98,2567,467,1200,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T146,P04,Lighting,5,Small,3,0,3,98,2133,433,1067,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T147,P11,Electrical switchgear,9,Medium,3,0,3,98,11900,6000,3433,Accept,Switch,Accept,1,0,1,Other sites only,"the shared pool, excluding this project",379
+T148,P04,Concrete & masonry,3,Small,3,0,3,98,3700,233,1933,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T149,P10,Electrical switchgear,15,Small,3,0,2,100,8700,1800,3833,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",376
+T150,P11,Electrical switchgear,12,Medium,3,0,2,98,19567,4533,12033,Accept,Switch,Accept,1,0,1,Other sites only,"the shared pool, excluding this project",379
+T151,P05,Concrete & masonry,9,Medium,3,0,2,96,10467,1600,6000,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",385
+T152,P12,Concrete & masonry,4,Large,3,0,3,97,11567,2867,6867,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T153,P09,Electrical switchgear,14,Large,3,0,3,100,36600,5333,20967,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T154,P19,Lighting,2,Small,3,0,2,98,1533,400,867,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",386
+T155,P03,Electrical switchgear,5,Large,3,0,2,97,19900,8333,6600,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T156,P16,Electrical switchgear,13,Small,3,0,1,97,11233,3933,5633,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",370
+T157,P18,Concrete & masonry,7,Large,3,0,2,97,10767,3667,5267,Switch,Expedite,Switch,1,0,1,Other sites only,"the shared pool, excluding this project",378
+T158,P07,HVAC rooftop units,6,Small,3,0,3,98,2600,1467,1667,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T159,P17,Roofing membrane,5,Medium,3,0,2,96,6067,2233,3367,Expedite,Accept,Expedite,1,0,1,Other sites only,"the shared pool, excluding this project",379
+T160,P18,Structural steel,12,Large,3,0,3,99,15667,16200,15967,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T161,P04,Lighting,15,Small,3,0,2,97,4200,1333,2767,Switch,Accept,Switch,1,0,1,Other sites only,"the shared pool, excluding this project",378
+T162,P01,Concrete & masonry,12,Small,3,0,3,99,6133,1700,3900,Switch,Accept,Switch,1,0,1,Other sites only,"the shared pool, excluding this project",385
+T163,P12,Structural steel,3,Large,3,0,2,95,1467,2433,1933,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T164,P07,HVAC rooftop units,13,Small,3,0,3,98,3467,1667,1333,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T165,P05,HVAC rooftop units,2,Medium,3,0,2,100,4100,1000,2533,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",385
+T166,P16,Lighting,5,Small,3,0,3,98,1933,933,1433,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",370
+T167,P16,Structural steel,10,Small,3,0,3,100,933,967,933,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",370
+T168,P12,Electrical switchgear,5,Large,3,0,2,97,27900,4367,14667,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T169,P19,HVAC rooftop units,11,Small,3,0,2,98,5167,2133,3100,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",386
+T170,P04,HVAC rooftop units,3,Small,3,0,3,100,2733,433,1267,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T171,P16,Roofing membrane,3,Small,3,0,2,98,2100,1200,700,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",370
+T172,P11,Roofing membrane,5,Medium,3,0,2,95,6367,1367,3867,Expedite,Accept,Expedite,1,0,1,Other sites only,"the shared pool, excluding this project",379
+T173,P02,Concrete & masonry,3,Medium,3,0,3,98,7700,1133,4400,Expedite,Accept,Expedite,1,0,1,Other sites only,"the shared pool, excluding this project",386
+T174,P06,Structural steel,14,Large,3,0,3,99,11000,11733,11333,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",390
+T175,P09,Electrical switchgear,2,Large,3,0,2,96,17733,2900,7567,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T176,P20,HVAC rooftop units,9,Medium,3,0,3,99,13867,8700,11300,Accept,Switch,Accept,1,0,1,Other sites only,"the shared pool, excluding this project",377
+T177,P04,Structural steel,3,Small,3,0,3,99,700,233,433,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T178,P15,Structural steel,11,Large,3,0,3,98,10467,9967,10200,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T179,P04,Roofing membrane,3,Small,3,0,2,98,3233,600,1967,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T180,P02,Structural steel,2,Medium,3,0,3,99,867,767,833,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",386
+T181,P04,Roofing membrane,3,Small,3,0,2,98,3100,467,1833,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T182,P16,Structural steel,5,Small,3,0,2,98,1133,1233,933,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",370
+T183,P13,HVAC rooftop units,14,Small,3,0,3,98,7067,2300,4733,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",379
+T184,P15,Concrete & masonry,4,Large,3,0,2,97,9133,2867,5067,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T185,P07,HVAC rooftop units,1,Small,3,0,3,97,2567,500,1533,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T186,P20,Electrical switchgear,2,Medium,3,0,2,99,14533,5233,9867,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",377
+T187,P06,Lighting,5,Large,3,0,2,98,9367,4200,6800,Expedite,Expedite,Expedite,0,1,1,Other sites only,"the shared pool, excluding this project",390
+T188,P19,Concrete & masonry,12,Small,3,0,2,99,3300,967,1267,Switch,Accept,Switch,1,0,1,Other sites only,"the shared pool, excluding this project",386
+T189,P07,Roofing membrane,2,Small,3,0,3,95,2900,300,1567,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",384
+T190,P05,Structural steel,5,Medium,3,0,3,98,900,1567,1167,Expedite,Accept,Accept,0,0,0,Other sites only,"the shared pool, excluding this project",385
+T191,P11,Concrete & masonry,15,Medium,3,0,3,99,12367,1900,7100,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",379
+T192,P04,Structural steel,13,Small,3,0,3,98,1300,1233,1133,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T193,P20,Roofing membrane,12,Medium,3,0,2,97,8100,1933,4700,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",377
+T194,P19,Lighting,6,Small,3,0,3,97,1533,1367,1100,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",386
+T195,P19,Concrete & masonry,13,Small,3,0,3,98,4333,1033,2300,Switch,Accept,Switch,1,0,1,Other sites only,"the shared pool, excluding this project",386
+T196,P10,Roofing membrane,2,Small,3,0,3,95,2833,233,1567,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",376
+T197,P15,Structural steel,13,Large,3,0,3,98,6300,5200,5733,Switch,Switch,Switch,0,1,1,Other sites only,"the shared pool, excluding this project",378
+T198,P11,Roofing membrane,4,Medium,3,0,3,96,6933,1467,4233,Expedite,Accept,Expedite,1,0,1,Other sites only,"the shared pool, excluding this project",379
+T199,P08,Structural steel,2,Medium,3,0,3,99,1400,1300,1367,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",380
+T200,P16,Lighting,9,Small,3,0,3,98,1867,1300,633,Accept,Accept,Accept,0,1,1,Other sites only,"the shared pool, excluding this project",370
+T001,P16,Roofing membrane,12,Small,3,0,2,96,3067,1067,1633,Switch,Accept,Switch,1,0,1,Own + other sites,everything available,400
+T002,P09,HVAC rooftop units,4,Large,3,0,3,99,13000,2367,6933,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T003,P17,Electrical switchgear,10,Medium,3,0,2,96,21533,8667,15100,Accept,Switch,Accept,1,0,1,Own + other sites,everything available,400
+T004,P17,Concrete & masonry,12,Medium,3,2,2,98,9233,2600,4233,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T005,P15,Electrical switchgear,14,Large,3,0,3,100,42133,9967,26067,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T006,P14,Concrete & masonry,13,Medium,3,2,2,99,11133,1333,6233,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T007,P05,Lighting,7,Medium,3,0,2,97,6367,433,3300,Switch,Accept,Accept,0,0,0,Own + other sites,everything available,400
+T008,P02,Electrical switchgear,4,Medium,3,0,3,97,12800,3233,7600,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T009,P04,Lighting,14,Small,3,0,2,100,3533,867,2200,Switch,Accept,Switch,1,0,1,Own + other sites,everything available,400
+T010,P15,Lighting,3,Large,3,1,3,100,5200,600,2833,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T011,P05,Lighting,7,Medium,3,0,2,97,5900,1433,2833,Switch,Accept,Accept,0,0,0,Own + other sites,everything available,400
+T012,P15,Roofing membrane,11,Large,3,0,3,100,13000,7067,7500,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T013,P07,HVAC rooftop units,11,Small,3,0,2,98,3700,1267,2133,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T014,P05,Structural steel,12,Medium,3,2,2,99,6100,6033,6067,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T015,P10,Roofing membrane,12,Small,3,0,2,96,3800,200,2033,Switch,Accept,Switch,1,0,1,Own + other sites,everything available,400
+T016,P14,Electrical switchgear,7,Medium,3,0,2,99,12933,2700,6700,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T017,P05,HVAC rooftop units,11,Medium,3,0,2,96,5833,3500,2000,Accept,Switch,Switch,0,0,0,Own + other sites,everything available,400
+T018,P07,Structural steel,3,Small,3,0,2,100,1033,800,900,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T019,P03,Concrete & masonry,4,Large,3,1,3,97,13800,3033,8433,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T020,P20,Concrete & masonry,9,Medium,3,1,2,96,7400,1867,2767,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T021,P06,Roofing membrane,2,Large,3,0,2,99,8933,2033,5433,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T022,P18,HVAC rooftop units,11,Large,3,0,3,98,14800,2833,8767,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T023,P11,Concrete & masonry,2,Medium,3,2,2,99,6867,600,3733,Expedite,Accept,Expedite,1,0,1,Own + other sites,everything available,400
+T024,P20,Electrical switchgear,10,Medium,3,0,2,96,23400,10533,16967,Accept,Switch,Accept,1,0,1,Own + other sites,everything available,400
+T025,P07,Structural steel,10,Small,3,1,3,100,400,433,400,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T026,P05,Roofing membrane,3,Medium,3,0,3,99,7100,2000,4533,Expedite,Accept,Expedite,1,0,1,Own + other sites,everything available,400
+T027,P17,Structural steel,11,Medium,3,2,2,100,3300,1700,1967,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T028,P16,HVAC rooftop units,13,Small,3,1,3,98,5167,1000,3033,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T029,P18,Lighting,11,Large,3,1,3,98,9233,6767,8000,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T030,P14,Concrete & masonry,15,Medium,3,1,3,99,12733,533,6667,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T031,P09,Structural steel,3,Large,3,2,2,97,767,2167,1300,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T032,P14,Electrical switchgear,3,Medium,3,0,2,99,9667,467,4600,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T033,P01,Lighting,4,Small,3,0,3,97,2633,833,1733,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T034,P07,HVAC rooftop units,10,Small,3,0,3,100,3133,1500,1300,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T035,P04,Roofing membrane,7,Small,3,0,2,97,3600,1067,2300,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T036,P06,Electrical switchgear,15,Large,3,1,3,98,36867,5633,19567,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T037,P10,Lighting,9,Small,3,0,3,98,2000,633,1200,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T038,P07,Structural steel,11,Small,3,0,3,100,1733,1667,1467,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T039,P07,Lighting,7,Small,3,1,3,98,2533,467,1367,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T040,P18,Roofing membrane,13,Large,3,1,3,97,12900,4600,6533,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T041,P10,Roofing membrane,11,Small,3,0,2,97,2667,433,1233,Switch,Accept,Accept,0,0,0,Own + other sites,everything available,400
+T042,P16,Lighting,1,Small,3,0,2,98,1800,300,1033,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T043,P05,Concrete & masonry,7,Medium,3,0,1,98,9200,1100,4633,Switch,Accept,Expedite,1,0,0,Own + other sites,everything available,400
+T044,P17,Roofing membrane,14,Medium,3,0,3,97,8767,3333,4567,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T045,P13,HVAC rooftop units,14,Small,3,0,3,98,5333,367,2833,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T046,P06,Lighting,11,Large,3,0,3,98,7733,2000,3300,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T047,P18,Roofing membrane,12,Large,3,1,3,97,14267,3000,7733,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T048,P05,Electrical switchgear,12,Medium,3,0,2,98,14400,4567,6433,Accept,Switch,Accept,1,0,1,Own + other sites,everything available,400
+T049,P12,Structural steel,6,Large,3,0,2,98,3300,2233,2767,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T050,P17,Electrical switchgear,9,Medium,3,0,3,98,15700,3333,7133,Accept,Switch,Accept,1,0,1,Own + other sites,everything available,400
+T051,P20,Concrete & masonry,3,Medium,3,0,3,98,6467,900,3200,Expedite,Accept,Expedite,1,0,1,Own + other sites,everything available,400
+T052,P17,HVAC rooftop units,11,Medium,3,0,2,96,10133,2467,5900,Accept,Switch,Switch,0,0,0,Own + other sites,everything available,400
+T053,P11,Electrical switchgear,9,Medium,3,0,3,98,16233,2600,7667,Accept,Switch,Accept,1,0,1,Own + other sites,everything available,400
+T054,P07,Electrical switchgear,12,Small,3,1,3,98,9000,767,4500,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T055,P11,Lighting,6,Medium,3,0,3,96,4900,567,2333,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T056,P11,Roofing membrane,3,Medium,3,0,3,99,5233,467,2533,Expedite,Accept,Expedite,1,0,1,Own + other sites,everything available,400
+T057,P06,Concrete & masonry,13,Large,3,0,3,100,22033,6400,14267,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T058,P07,Electrical switchgear,3,Small,3,0,2,100,4000,3167,933,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T059,P14,Roofing membrane,2,Medium,3,1,3,98,5033,300,2533,Expedite,Accept,Expedite,1,0,1,Own + other sites,everything available,400
+T060,P04,HVAC rooftop units,11,Small,3,0,2,98,3700,1800,1733,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T061,P16,Structural steel,12,Small,3,1,2,100,1700,1667,1667,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T062,P04,Lighting,11,Small,3,1,3,99,3067,1367,2033,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T063,P16,HVAC rooftop units,10,Small,3,1,3,100,6267,2633,4433,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T064,P04,Concrete & masonry,4,Small,3,0,3,98,3400,367,1567,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T065,P14,Roofing membrane,13,Medium,3,0,3,100,10967,3100,7033,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T066,P02,Concrete & masonry,6,Medium,3,0,2,100,9867,2233,6000,Switch,Accept,Expedite,1,0,0,Own + other sites,everything available,400
+T067,P09,Concrete & masonry,3,Large,3,1,3,99,8600,700,4633,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T068,P08,Concrete & masonry,11,Medium,3,0,2,100,9833,400,4900,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T069,P05,Roofing membrane,6,Medium,3,0,3,99,8167,2233,5200,Switch,Accept,Expedite,1,0,0,Own + other sites,everything available,400
+T070,P03,Roofing membrane,1,Large,3,0,2,96,7800,1267,4367,Accept,Expedite,Expedite,0,0,0,Own + other sites,everything available,400
+T071,P20,HVAC rooftop units,2,Medium,3,1,2,100,5333,1533,3433,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T072,P13,HVAC rooftop units,5,Small,3,0,3,98,4433,2667,3533,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T073,P05,Roofing membrane,6,Medium,3,0,3,99,8300,2367,5333,Switch,Accept,Expedite,1,0,0,Own + other sites,everything available,400
+T074,P05,Lighting,7,Medium,3,0,2,97,5033,1167,2167,Switch,Accept,Accept,0,0,0,Own + other sites,everything available,400
+T075,P13,Electrical switchgear,3,Small,3,2,2,100,6067,833,2667,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T076,P04,Electrical switchgear,5,Small,3,0,3,96,6767,1300,3267,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T077,P12,Concrete & masonry,6,Large,3,1,3,97,11967,1967,6433,Switch,Expedite,Expedite,0,0,0,Own + other sites,everything available,400
+T078,P05,Structural steel,2,Medium,3,1,3,99,1833,1833,1833,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T079,P19,Lighting,14,Small,3,0,2,100,2767,1033,1633,Switch,Accept,Switch,1,0,1,Own + other sites,everything available,400
+T080,P19,Lighting,4,Small,3,0,3,97,1200,733,567,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T081,P10,Lighting,1,Small,3,0,2,98,2167,667,1400,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T082,P07,Electrical switchgear,5,Small,3,1,3,96,6633,1100,3133,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T083,P03,Roofing membrane,4,Large,3,0,3,96,11200,4367,7800,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T084,P06,Roofing membrane,2,Large,3,0,2,99,8700,1667,5200,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T085,P18,Lighting,5,Large,3,0,2,98,5800,3667,3400,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T086,P11,Structural steel,3,Medium,3,0,3,99,500,67,300,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T087,P17,Electrical switchgear,13,Medium,3,0,3,98,17667,933,9133,Accept,Switch,Accept,1,0,1,Own + other sites,everything available,400
+T088,P07,Concrete & masonry,14,Small,3,0,3,97,4967,133,2533,Switch,Accept,Switch,1,0,1,Own + other sites,everything available,400
+T089,P07,Structural steel,4,Small,3,0,2,100,600,500,400,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T090,P13,Lighting,1,Small,3,2,2,98,1600,300,833,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T091,P05,Concrete & masonry,5,Medium,3,0,3,100,7533,467,3667,Switch,Accept,Expedite,1,0,0,Own + other sites,everything available,400
+T092,P06,Lighting,13,Large,3,0,3,97,16200,7867,12033,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T093,P19,Electrical switchgear,10,Small,3,1,3,98,10767,2467,6633,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T094,P20,Roofing membrane,11,Medium,3,2,2,98,8967,3000,5867,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T095,P08,Structural steel,5,Medium,3,0,3,98,1500,567,1000,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T096,P19,Lighting,13,Small,3,0,1,97,3067,2533,2833,Switch,Accept,Accept,0,0,0,Own + other sites,everything available,400
+T097,P20,Electrical switchgear,2,Medium,3,1,3,99,14600,4133,9400,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T098,P05,Concrete & masonry,7,Medium,3,0,1,98,7900,1267,3733,Switch,Accept,Expedite,1,0,0,Own + other sites,everything available,400
+T099,P19,HVAC rooftop units,15,Small,3,0,3,97,5633,3567,3200,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T100,P04,Structural steel,12,Small,3,2,2,100,1933,833,1367,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T101,P10,Structural steel,10,Small,3,1,3,100,2000,1567,1733,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T102,P02,HVAC rooftop units,2,Medium,3,0,2,100,2900,1633,1467,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T103,P02,Concrete & masonry,6,Medium,3,0,2,100,9100,1467,5233,Switch,Accept,Expedite,1,0,0,Own + other sites,everything available,400
+T104,P03,Electrical switchgear,2,Large,3,0,3,98,14700,2100,6300,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T105,P04,Structural steel,7,Small,3,0,2,99,1567,900,1167,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T106,P16,Electrical switchgear,13,Small,3,1,2,97,9067,2233,3733,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T107,P12,Electrical switchgear,1,Large,3,0,3,97,14033,3400,6367,Accept,Expedite,Expedite,0,0,0,Own + other sites,everything available,400
+T108,P02,Concrete & masonry,5,Medium,3,1,3,100,8767,1167,4900,Expedite,Accept,Expedite,1,0,1,Own + other sites,everything available,400
+T109,P07,Structural steel,1,Small,3,1,3,97,933,467,700,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T110,P08,Structural steel,12,Medium,3,0,2,99,2967,4100,3067,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T111,P13,HVAC rooftop units,12,Small,3,0,2,99,4867,1733,3300,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T112,P08,Roofing membrane,5,Medium,3,0,2,96,6933,1533,4233,Expedite,Accept,Expedite,1,0,1,Own + other sites,everything available,400
+T113,P02,Electrical switchgear,8,Medium,3,2,2,99,11067,8133,2767,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T114,P15,Lighting,10,Large,3,0,1,97,8800,6833,7167,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T115,P06,Concrete & masonry,15,Large,3,1,2,99,20700,5633,12533,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T116,P11,Electrical switchgear,9,Medium,3,0,3,98,16100,3533,7467,Accept,Switch,Accept,1,0,1,Own + other sites,everything available,400
+T117,P10,Structural steel,2,Small,3,0,3,100,700,133,433,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T118,P03,Lighting,13,Large,3,0,3,97,17100,8767,12933,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T119,P02,Structural steel,13,Medium,3,0,2,98,5633,8233,6900,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T120,P03,Concrete & masonry,2,Large,3,0,2,99,10067,3167,6600,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T121,P01,Concrete & masonry,12,Small,3,0,3,99,6667,2500,4600,Switch,Accept,Switch,1,0,1,Own + other sites,everything available,400
+T122,P02,Roofing membrane,10,Medium,3,0,3,98,11267,5067,8200,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T123,P16,Lighting,12,Small,3,0,3,98,2900,2300,2567,Switch,Accept,Accept,0,0,0,Own + other sites,everything available,400
+T124,P04,Structural steel,2,Small,3,1,3,100,1300,800,1033,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T125,P15,Concrete & masonry,3,Large,3,0,3,99,8200,1567,4900,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T126,P06,Roofing membrane,2,Large,3,0,2,99,8400,1367,4900,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T127,P13,Concrete & masonry,14,Small,3,1,3,97,5733,833,3300,Switch,Accept,Switch,1,0,1,Own + other sites,everything available,400
+T128,P14,Electrical switchgear,15,Medium,3,0,2,100,23500,3367,13333,Accept,Switch,Switch,0,0,0,Own + other sites,everything available,400
+T129,P12,Structural steel,12,Large,3,0,3,99,5500,7333,6400,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T130,P17,Electrical switchgear,5,Medium,3,0,3,100,13667,667,7067,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T131,P01,Lighting,9,Small,3,1,3,98,3167,1133,1900,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T132,P15,Concrete & masonry,11,Large,3,1,3,100,13700,2067,6967,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T133,P05,Concrete & masonry,5,Medium,3,0,3,100,7700,500,4100,Switch,Accept,Expedite,1,0,0,Own + other sites,everything available,400
+T134,P11,Electrical switchgear,15,Medium,3,0,2,100,19667,3867,9500,Accept,Switch,Switch,0,0,0,Own + other sites,everything available,400
+T135,P15,Structural steel,3,Large,3,0,2,97,5300,3633,4433,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T136,P04,Electrical switchgear,12,Small,3,1,3,98,9733,700,5233,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T137,P12,Roofing membrane,11,Large,3,1,3,100,13033,2233,5933,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T138,P05,Electrical switchgear,10,Medium,3,1,2,96,15533,2933,8367,Accept,Switch,Accept,1,0,1,Own + other sites,everything available,400
+T139,P12,Lighting,3,Large,3,0,3,100,4533,867,2500,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T140,P01,Lighting,4,Small,3,0,3,97,3067,1267,2167,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T141,P16,HVAC rooftop units,12,Small,3,0,2,99,5333,2400,3833,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T142,P08,Electrical switchgear,1,Medium,3,2,2,99,7567,1167,3567,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T143,P19,Lighting,14,Small,3,0,2,100,2100,1700,967,Switch,Accept,Switch,1,0,1,Own + other sites,everything available,400
+T144,P16,Electrical switchgear,14,Small,3,1,2,100,9067,2700,3567,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T145,P04,Lighting,11,Small,3,1,3,99,2467,300,1167,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T146,P04,Lighting,5,Small,3,0,3,98,2067,433,1033,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T147,P11,Electrical switchgear,9,Medium,3,0,3,98,12200,5967,3567,Accept,Switch,Accept,1,0,1,Own + other sites,everything available,400
+T148,P04,Concrete & masonry,3,Small,3,0,3,98,3633,233,1933,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T149,P10,Electrical switchgear,15,Small,3,0,2,100,8600,1800,3833,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T150,P11,Electrical switchgear,12,Medium,3,0,2,98,19900,4533,12200,Accept,Switch,Accept,1,0,1,Own + other sites,everything available,400
+T151,P05,Concrete & masonry,9,Medium,3,0,2,96,10600,1600,6033,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T152,P12,Concrete & masonry,4,Large,3,0,3,97,10833,2933,6533,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T153,P09,Electrical switchgear,14,Large,3,0,3,100,37500,5333,21433,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T154,P19,Lighting,2,Small,3,1,3,99,1667,67,833,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T155,P03,Electrical switchgear,5,Large,3,0,2,97,19767,8300,6533,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T156,P16,Electrical switchgear,13,Small,3,1,2,97,10967,3867,5633,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T157,P18,Concrete & masonry,7,Large,3,0,2,97,11633,3700,5700,Switch,Expedite,Switch,1,0,1,Own + other sites,everything available,400
+T158,P07,HVAC rooftop units,6,Small,3,0,3,98,2600,1467,1667,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T159,P17,Roofing membrane,5,Medium,3,0,2,96,6067,2200,3367,Expedite,Accept,Expedite,1,0,1,Own + other sites,everything available,400
+T160,P18,Structural steel,12,Large,3,0,3,99,14367,16200,15267,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T161,P04,Lighting,15,Small,3,0,2,97,4033,1300,2667,Switch,Accept,Switch,1,0,1,Own + other sites,everything available,400
+T162,P01,Concrete & masonry,12,Small,3,0,3,99,5833,1667,3767,Switch,Accept,Switch,1,0,1,Own + other sites,everything available,400
+T163,P12,Structural steel,3,Large,3,1,2,97,2133,2067,1467,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T164,P07,HVAC rooftop units,13,Small,3,0,3,98,3500,1667,1367,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T165,P05,HVAC rooftop units,2,Medium,3,0,2,100,3867,1000,2433,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T166,P16,Lighting,5,Small,3,0,3,98,1900,933,1400,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T167,P16,Structural steel,10,Small,3,0,3,100,800,967,867,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T168,P12,Electrical switchgear,5,Large,3,0,2,97,28633,4367,15067,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T169,P19,HVAC rooftop units,11,Small,3,0,2,98,4900,2133,2933,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T170,P04,HVAC rooftop units,3,Small,3,0,3,100,2733,433,1267,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T171,P16,Roofing membrane,3,Small,3,1,3,98,2167,867,800,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T172,P11,Roofing membrane,5,Medium,3,1,2,96,6100,900,3400,Expedite,Accept,Expedite,1,0,1,Own + other sites,everything available,400
+T173,P02,Concrete & masonry,3,Medium,3,0,3,98,7567,1133,4367,Expedite,Accept,Expedite,1,0,1,Own + other sites,everything available,400
+T174,P06,Structural steel,14,Large,3,0,3,99,10767,11733,11233,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T175,P09,Electrical switchgear,2,Large,3,1,3,98,18167,2100,9767,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T176,P20,HVAC rooftop units,9,Medium,3,0,3,99,13033,8667,10833,Accept,Switch,Accept,1,0,1,Own + other sites,everything available,400
+T177,P04,Structural steel,3,Small,3,2,2,100,633,333,433,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T178,P15,Structural steel,11,Large,3,0,3,98,8667,9967,9333,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T179,P04,Roofing membrane,3,Small,3,1,3,98,3167,400,1800,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T180,P02,Structural steel,2,Medium,3,0,3,99,767,767,767,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T181,P04,Roofing membrane,3,Small,3,1,3,98,3033,333,1667,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T182,P16,Structural steel,5,Small,3,1,3,98,1100,1067,1067,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T183,P13,HVAC rooftop units,14,Small,3,0,3,98,7233,2267,4733,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T184,P15,Concrete & masonry,4,Large,3,1,3,97,10033,2133,5733,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T185,P07,HVAC rooftop units,1,Small,3,0,3,97,2600,500,1567,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T186,P20,Electrical switchgear,2,Medium,3,1,3,99,14067,3600,8867,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T187,P06,Lighting,5,Large,3,0,2,98,9367,4233,6767,Expedite,Expedite,Expedite,0,1,1,Own + other sites,everything available,400
+T188,P19,Concrete & masonry,12,Small,3,1,3,99,3500,800,1433,Switch,Accept,Switch,1,0,1,Own + other sites,everything available,400
+T189,P07,Roofing membrane,2,Small,3,0,3,95,2867,300,1567,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T190,P05,Structural steel,5,Medium,3,0,3,98,1167,1567,1200,Expedite,Accept,Accept,0,0,0,Own + other sites,everything available,400
+T191,P11,Concrete & masonry,15,Medium,3,0,3,99,12033,1900,6967,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T192,P04,Structural steel,13,Small,3,1,3,98,1200,1367,1033,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T193,P20,Roofing membrane,12,Medium,3,3,1,99,8633,1733,5200,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T194,P19,Lighting,6,Small,3,0,3,97,1567,1367,1133,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T195,P19,Concrete & masonry,13,Small,3,1,3,99,4500,700,2333,Switch,Accept,Switch,1,0,1,Own + other sites,everything available,400
+T196,P10,Roofing membrane,2,Small,3,0,3,95,2900,267,1600,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T197,P15,Structural steel,13,Large,3,1,3,98,5233,5900,5567,Switch,Switch,Switch,0,1,1,Own + other sites,everything available,400
+T198,P11,Roofing membrane,4,Medium,3,0,3,96,6667,1433,4033,Expedite,Accept,Expedite,1,0,1,Own + other sites,everything available,400
+T199,P08,Structural steel,2,Medium,3,0,3,99,1300,1300,1300,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400
+T200,P16,Lighting,9,Small,3,0,3,98,1967,1333,700,Accept,Accept,Accept,0,1,1,Own + other sites,everything available,400

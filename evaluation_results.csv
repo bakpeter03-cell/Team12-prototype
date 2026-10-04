@@ -1,0 +1,801 @@
+test_id,project_id,material,delay_days,project_size,cases_used,cases_from_own_project,projects_drawn_from,measured_similarity,baseline_error,history_error,blended_error,true_best_action,baseline_recommendation,blended_recommendation,recommendation_changed,baseline_correct,blended_correct,level,level_description,pool_size
+T001,P16,Roofing membrane,12,Small,3,0,2,96,2967,1067,1733,Switch,Accept,Switch,1,0,1,1 Near-identical,"same material, same job size, similar duration",6
+T002,P09,HVAC rooftop units,4,Large,3,0,3,99,12600,2367,6733,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T003,P17,Electrical switchgear,10,Medium,3,0,2,96,21700,8633,15167,Accept,Switch,Accept,1,0,1,1 Near-identical,"same material, same job size, similar duration",5
+T004,P17,Concrete & masonry,12,Medium,3,0,2,97,9300,4233,4333,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T005,P15,Electrical switchgear,14,Large,3,0,3,100,44200,9967,27067,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T006,P14,Concrete & masonry,13,Medium,3,0,2,97,11367,1000,6167,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T007,P05,Lighting,7,Medium,3,0,2,97,6233,433,3200,Switch,Accept,Accept,0,0,0,1 Near-identical,"same material, same job size, similar duration",3
+T008,P02,Electrical switchgear,4,Medium,3,0,3,97,12700,3233,7500,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T009,P04,Lighting,14,Small,3,0,2,100,3667,867,2233,Switch,Accept,Switch,1,0,1,1 Near-identical,"same material, same job size, similar duration",5
+T010,P15,Lighting,3,Large,3,0,2,99,4400,267,2100,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T011,P05,Lighting,7,Medium,3,0,2,97,5767,1433,2733,Switch,Accept,Accept,0,0,0,1 Near-identical,"same material, same job size, similar duration",3
+T012,P15,Roofing membrane,11,Large,3,0,3,100,12000,7067,6967,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",10
+T013,P07,HVAC rooftop units,11,Small,3,0,2,98,3633,1267,2167,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",10
+T014,P05,Structural steel,12,Medium,3,0,2,97,6000,8033,7000,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",10
+T015,P10,Roofing membrane,12,Small,3,0,2,96,3700,200,1967,Switch,Accept,Switch,1,0,1,1 Near-identical,"same material, same job size, similar duration",5
+T016,P14,Electrical switchgear,7,Medium,3,0,2,99,12667,2700,6567,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T017,P05,HVAC rooftop units,11,Medium,3,0,2,96,6133,3500,2167,Accept,Switch,Switch,0,0,0,1 Near-identical,"same material, same job size, similar duration",6
+T018,P07,Structural steel,3,Small,3,0,2,100,1067,800,900,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",10
+T019,P03,Concrete & masonry,4,Large,3,0,3,97,14167,5200,9667,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T020,P20,Concrete & masonry,9,Medium,3,0,2,95,6900,2033,2633,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T021,P06,Roofing membrane,2,Large,3,0,2,99,8833,2033,5367,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T022,P18,HVAC rooftop units,11,Large,3,0,3,98,14833,2800,8800,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T023,P11,Concrete & masonry,2,Medium,3,0,2,97,7100,700,3933,Expedite,Accept,Expedite,1,0,1,1 Near-identical,"same material, same job size, similar duration",5
+T024,P20,Electrical switchgear,10,Medium,3,0,2,96,24267,10500,17367,Accept,Switch,Accept,1,0,1,1 Near-identical,"same material, same job size, similar duration",4
+T025,P07,Structural steel,10,Small,3,0,2,99,400,233,133,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",9
+T026,P05,Roofing membrane,3,Medium,3,0,3,99,6900,2000,4467,Expedite,Accept,Expedite,1,0,1,1 Near-identical,"same material, same job size, similar duration",4
+T027,P17,Structural steel,11,Medium,3,0,3,98,3500,2567,2400,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",12
+T028,P16,HVAC rooftop units,13,Small,3,0,2,98,5300,1900,3567,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T029,P18,Lighting,11,Large,3,0,3,97,9933,10367,10067,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T030,P14,Concrete & masonry,15,Medium,3,0,3,98,12933,1133,6800,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T031,P09,Structural steel,3,Large,3,0,2,96,800,4300,2300,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T032,P14,Electrical switchgear,3,Medium,3,0,2,99,9467,467,4467,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T033,P01,Lighting,4,Small,3,0,3,97,2867,867,1833,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T034,P07,HVAC rooftop units,10,Small,3,0,3,100,3133,1500,1300,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",11
+T035,P04,Roofing membrane,7,Small,3,0,2,97,3667,1033,2333,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T036,P06,Electrical switchgear,15,Large,3,0,2,98,37000,7200,19033,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T037,P10,Lighting,9,Small,3,0,3,98,1933,600,1167,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T038,P07,Structural steel,11,Small,3,0,3,100,1733,1667,1433,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",10
+T039,P07,Lighting,7,Small,3,0,3,97,2600,633,1400,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T040,P18,Roofing membrane,13,Large,3,0,3,97,11500,2300,5267,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T041,P10,Roofing membrane,11,Small,3,0,2,97,2567,433,1167,Switch,Accept,Accept,0,0,0,1 Near-identical,"same material, same job size, similar duration",4
+T042,P16,Lighting,1,Small,3,0,2,98,1767,300,1033,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T043,P05,Concrete & masonry,7,Medium,3,0,1,98,9067,1100,4567,Switch,Accept,Expedite,1,0,0,1 Near-identical,"same material, same job size, similar duration",12
+T044,P17,Roofing membrane,14,Medium,3,0,3,97,8833,3400,4600,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T045,P13,HVAC rooftop units,14,Small,3,0,3,98,5167,400,2833,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T046,P06,Lighting,11,Large,3,0,3,98,7600,1967,3400,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T047,P18,Roofing membrane,12,Large,3,0,3,97,14233,6433,8100,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",9
+T048,P05,Electrical switchgear,12,Medium,3,0,2,98,14700,4567,6600,Accept,Switch,Accept,1,0,1,1 Near-identical,"same material, same job size, similar duration",4
+T049,P12,Structural steel,6,Large,3,0,2,98,2467,2233,2367,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T050,P17,Electrical switchgear,9,Medium,3,0,3,98,15867,3367,7267,Accept,Switch,Accept,1,0,1,1 Near-identical,"same material, same job size, similar duration",6
+T051,P20,Concrete & masonry,3,Medium,3,0,3,98,6067,900,3000,Expedite,Accept,Expedite,1,0,1,1 Near-identical,"same material, same job size, similar duration",12
+T052,P17,HVAC rooftop units,11,Medium,3,0,2,96,10333,2500,6033,Accept,Switch,Switch,0,0,0,1 Near-identical,"same material, same job size, similar duration",5
+T053,P11,Electrical switchgear,9,Medium,3,0,3,98,15933,2567,7533,Accept,Switch,Accept,1,0,1,1 Near-identical,"same material, same job size, similar duration",6
+T054,P07,Electrical switchgear,12,Small,3,0,3,98,8933,1567,3800,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T055,P11,Lighting,6,Medium,3,0,3,96,5167,567,2467,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T056,P11,Roofing membrane,3,Medium,3,0,3,99,5467,467,2667,Expedite,Accept,Expedite,1,0,1,1 Near-identical,"same material, same job size, similar duration",3
+T057,P06,Concrete & masonry,13,Large,3,0,3,100,22267,6400,14333,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",10
+T058,P07,Electrical switchgear,3,Small,3,0,2,100,3967,3167,900,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T059,P14,Roofing membrane,2,Medium,3,0,3,98,5233,467,2433,Expedite,Accept,Expedite,1,0,1,1 Near-identical,"same material, same job size, similar duration",3
+T060,P04,HVAC rooftop units,11,Small,3,0,2,98,3667,1833,1700,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",9
+T061,P16,Structural steel,12,Small,3,0,2,99,1800,1433,1600,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",9
+T062,P04,Lighting,11,Small,3,0,2,98,3167,1200,1933,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T063,P16,HVAC rooftop units,10,Small,3,0,2,100,6467,3133,4767,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T064,P04,Concrete & masonry,4,Small,3,0,3,98,3500,367,1567,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",11
+T065,P14,Roofing membrane,13,Medium,3,0,3,100,11200,3100,7133,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T066,P02,Concrete & masonry,6,Medium,3,0,2,100,10067,2233,6200,Switch,Accept,Expedite,1,0,0,1 Near-identical,"same material, same job size, similar duration",15
+T067,P09,Concrete & masonry,3,Large,3,0,3,97,9033,1067,4533,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T068,P08,Concrete & masonry,11,Medium,3,0,2,100,9967,400,4967,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T069,P05,Roofing membrane,6,Medium,3,0,3,99,8033,2233,5167,Switch,Accept,Expedite,1,0,0,1 Near-identical,"same material, same job size, similar duration",6
+T070,P03,Roofing membrane,1,Large,3,0,2,96,7900,1233,4400,Accept,Expedite,Expedite,0,0,0,1 Near-identical,"same material, same job size, similar duration",3
+T071,P20,HVAC rooftop units,2,Medium,3,0,2,99,5800,867,3167,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T072,P13,HVAC rooftop units,5,Small,3,0,3,98,4333,2700,3533,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",10
+T073,P05,Roofing membrane,6,Medium,3,0,3,99,8167,2367,5300,Switch,Accept,Expedite,1,0,0,1 Near-identical,"same material, same job size, similar duration",6
+T074,P05,Lighting,7,Medium,3,0,2,97,4900,1167,2067,Switch,Accept,Accept,0,0,0,1 Near-identical,"same material, same job size, similar duration",3
+T075,P13,Electrical switchgear,3,Small,3,0,2,97,5967,467,2967,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T076,P04,Electrical switchgear,5,Small,3,0,3,96,6767,1300,3267,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T077,P12,Concrete & masonry,6,Large,3,0,2,97,12800,3400,7500,Switch,Expedite,Expedite,0,0,0,1 Near-identical,"same material, same job size, similar duration",4
+T078,P05,Structural steel,2,Medium,3,0,2,99,1667,1633,1667,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T079,P19,Lighting,14,Small,3,0,2,100,2600,1033,1533,Switch,Accept,Switch,1,0,1,1 Near-identical,"same material, same job size, similar duration",4
+T080,P19,Lighting,4,Small,3,0,3,97,1133,733,567,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T081,P10,Lighting,1,Small,3,0,2,98,2133,667,1400,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T082,P07,Electrical switchgear,5,Small,3,0,2,94,6633,1433,3167,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T083,P03,Roofing membrane,4,Large,3,0,3,96,11567,4333,7933,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T084,P06,Roofing membrane,2,Large,3,0,2,99,8600,1667,5133,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T085,P18,Lighting,5,Large,3,0,2,98,5633,3700,3533,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T086,P11,Structural steel,3,Medium,3,0,3,99,733,67,400,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T087,P17,Electrical switchgear,13,Medium,3,0,3,98,17600,933,9067,Accept,Switch,Accept,1,0,1,1 Near-identical,"same material, same job size, similar duration",8
+T088,P07,Concrete & masonry,14,Small,3,0,3,97,5033,100,2533,Switch,Accept,Switch,1,0,1,1 Near-identical,"same material, same job size, similar duration",5
+T089,P07,Structural steel,4,Small,3,0,2,100,600,500,400,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",13
+T090,P13,Lighting,1,Small,3,0,3,95,1700,700,800,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T091,P05,Concrete & masonry,5,Medium,3,0,3,100,7400,467,3533,Switch,Accept,Expedite,1,0,0,1 Near-identical,"same material, same job size, similar duration",15
+T092,P06,Lighting,13,Large,3,0,3,97,16433,7933,12200,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T093,P19,Electrical switchgear,10,Small,3,0,3,96,11000,2633,6833,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T094,P20,Roofing membrane,11,Medium,3,0,3,97,8433,2167,5033,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T095,P08,Structural steel,5,Medium,3,0,3,98,1500,600,1033,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T096,P19,Lighting,13,Small,3,0,1,97,3167,2567,2833,Switch,Accept,Accept,0,0,0,1 Near-identical,"same material, same job size, similar duration",6
+T097,P20,Electrical switchgear,2,Medium,3,0,2,99,15067,5767,10400,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T098,P05,Concrete & masonry,7,Medium,3,0,1,98,7767,1267,3667,Switch,Accept,Expedite,1,0,0,1 Near-identical,"same material, same job size, similar duration",12
+T099,P19,HVAC rooftop units,15,Small,3,0,3,97,5800,3567,3267,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T100,P04,Structural steel,12,Small,3,0,3,98,2067,3000,2533,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",10
+T101,P10,Structural steel,10,Small,3,0,2,99,2000,1733,1867,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T102,P02,HVAC rooftop units,2,Medium,3,0,2,100,2867,1633,1433,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",9
+T103,P02,Concrete & masonry,6,Medium,3,0,2,100,9300,1467,5433,Switch,Accept,Expedite,1,0,0,1 Near-identical,"same material, same job size, similar duration",15
+T104,P03,Electrical switchgear,2,Large,3,0,3,98,14733,2067,6367,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T105,P04,Structural steel,7,Small,3,0,2,99,1633,933,1200,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T106,P16,Electrical switchgear,13,Small,3,0,1,97,9333,2367,3733,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T107,P12,Electrical switchgear,1,Large,3,0,3,97,13367,3400,6033,Accept,Expedite,Expedite,0,0,0,1 Near-identical,"same material, same job size, similar duration",3
+T108,P02,Concrete & masonry,5,Medium,3,0,3,100,8967,1700,5333,Expedite,Accept,Expedite,1,0,1,1 Near-identical,"same material, same job size, similar duration",14
+T109,P07,Structural steel,1,Small,3,0,2,96,967,467,733,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T110,P08,Structural steel,12,Medium,3,0,2,99,3300,4067,3133,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",11
+T111,P13,HVAC rooftop units,12,Small,3,0,2,99,4633,1733,3200,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T112,P08,Roofing membrane,5,Medium,3,0,2,96,7133,1567,4367,Expedite,Accept,Expedite,1,0,1,1 Near-identical,"same material, same job size, similar duration",6
+T113,P02,Electrical switchgear,8,Medium,3,0,3,98,11000,8200,3167,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T114,P15,Lighting,10,Large,3,0,1,97,7100,6800,6300,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T115,P06,Concrete & masonry,15,Large,3,0,2,98,20567,3233,11500,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T116,P11,Electrical switchgear,9,Medium,3,0,3,98,15800,3500,7333,Accept,Switch,Accept,1,0,1,1 Near-identical,"same material, same job size, similar duration",6
+T117,P10,Structural steel,2,Small,3,0,3,100,633,133,367,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",10
+T118,P03,Lighting,13,Large,3,0,3,97,18233,8767,13500,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T119,P02,Structural steel,13,Medium,3,0,2,98,6033,8233,7167,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T120,P03,Concrete & masonry,2,Large,3,0,2,99,10300,3167,6733,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T121,P01,Concrete & masonry,12,Small,3,0,3,99,6967,2533,4733,Switch,Accept,Switch,1,0,1,1 Near-identical,"same material, same job size, similar duration",8
+T122,P02,Roofing membrane,10,Medium,3,0,3,98,11567,5067,8300,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T123,P16,Lighting,12,Small,3,0,3,98,3067,2267,2667,Switch,Accept,Accept,0,0,0,1 Near-identical,"same material, same job size, similar duration",8
+T124,P04,Structural steel,2,Small,3,0,2,99,1333,1133,1200,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T125,P15,Concrete & masonry,3,Large,3,0,3,99,7133,1567,4400,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T126,P06,Roofing membrane,2,Large,3,0,2,99,8300,1367,4833,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T127,P13,Concrete & masonry,14,Small,3,0,2,96,5967,1033,3300,Switch,Accept,Switch,1,0,1,1 Near-identical,"same material, same job size, similar duration",4
+T128,P14,Electrical switchgear,15,Medium,3,0,2,100,23167,3367,13167,Accept,Switch,Switch,0,0,0,1 Near-identical,"same material, same job size, similar duration",6
+T129,P12,Structural steel,12,Large,3,0,3,99,4533,7333,5933,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",9
+T130,P17,Electrical switchgear,5,Medium,3,0,3,100,13667,667,7100,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T131,P01,Lighting,9,Small,3,0,3,97,3433,1067,2167,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T132,P15,Concrete & masonry,11,Large,3,0,3,100,12700,1000,5933,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",9
+T133,P05,Concrete & masonry,5,Medium,3,0,3,100,7567,500,3967,Switch,Accept,Expedite,1,0,0,1 Near-identical,"same material, same job size, similar duration",15
+T134,P11,Electrical switchgear,15,Medium,3,0,2,100,19333,3867,9367,Accept,Switch,Switch,0,0,0,1 Near-identical,"same material, same job size, similar duration",5
+T135,P15,Structural steel,3,Large,3,0,2,97,6367,3633,4967,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T136,P04,Electrical switchgear,12,Small,3,0,3,98,9667,1667,4533,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T137,P12,Roofing membrane,11,Large,3,0,2,100,14000,2700,6433,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T138,P05,Electrical switchgear,10,Medium,3,0,2,95,15833,4033,7667,Accept,Switch,Accept,1,0,1,1 Near-identical,"same material, same job size, similar duration",4
+T139,P12,Lighting,3,Large,3,0,3,100,5267,867,2833,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T140,P01,Lighting,4,Small,3,0,3,97,3300,1300,2267,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T141,P16,HVAC rooftop units,12,Small,3,0,2,99,5567,2400,4000,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T142,P08,Electrical switchgear,1,Medium,3,0,2,97,7500,2833,2967,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T143,P19,Lighting,14,Small,3,0,2,100,1933,1700,867,Switch,Accept,Switch,1,0,1,1 Near-identical,"same material, same job size, similar duration",4
+T144,P16,Electrical switchgear,14,Small,3,0,2,99,9333,1700,4367,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T145,P04,Lighting,11,Small,3,0,2,98,2567,467,1200,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T146,P04,Lighting,5,Small,3,0,3,98,2133,433,1067,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T147,P11,Electrical switchgear,9,Medium,3,0,3,98,11900,6000,3433,Accept,Switch,Accept,1,0,1,1 Near-identical,"same material, same job size, similar duration",6
+T148,P04,Concrete & masonry,3,Small,3,0,3,98,3700,233,1933,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T149,P10,Electrical switchgear,15,Small,3,0,2,100,8700,1800,3833,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T150,P11,Electrical switchgear,12,Medium,3,0,2,98,19567,4533,12033,Accept,Switch,Accept,1,0,1,1 Near-identical,"same material, same job size, similar duration",4
+T151,P05,Concrete & masonry,9,Medium,3,0,2,96,10467,1600,6000,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T152,P12,Concrete & masonry,4,Large,3,0,3,97,11567,2867,6867,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T153,P09,Electrical switchgear,14,Large,3,0,3,100,36600,5333,20967,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T154,P19,Lighting,2,Small,3,0,2,98,1533,400,867,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T155,P03,Electrical switchgear,5,Large,3,0,2,97,19900,8333,6600,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T156,P16,Electrical switchgear,13,Small,3,0,1,97,11233,3933,5633,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T157,P18,Concrete & masonry,7,Large,3,0,2,97,10767,3667,5267,Switch,Expedite,Switch,1,0,1,1 Near-identical,"same material, same job size, similar duration",7
+T158,P07,HVAC rooftop units,6,Small,3,0,3,98,2600,1467,1667,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T159,P17,Roofing membrane,5,Medium,3,0,2,96,6067,2233,3367,Expedite,Accept,Expedite,1,0,1,1 Near-identical,"same material, same job size, similar duration",5
+T160,P18,Structural steel,12,Large,3,0,3,99,15667,16200,15967,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T161,P04,Lighting,15,Small,3,0,2,97,4200,1333,2767,Switch,Accept,Switch,1,0,1,1 Near-identical,"same material, same job size, similar duration",4
+T162,P01,Concrete & masonry,12,Small,3,0,3,99,6133,1700,3900,Switch,Accept,Switch,1,0,1,1 Near-identical,"same material, same job size, similar duration",8
+T163,P12,Structural steel,3,Large,3,0,2,95,1467,2433,1933,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T164,P07,HVAC rooftop units,13,Small,3,0,3,98,3467,1667,1333,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T165,P05,HVAC rooftop units,2,Medium,3,0,2,100,4100,1000,2533,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",9
+T166,P16,Lighting,5,Small,3,0,3,98,1933,933,1433,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T167,P16,Structural steel,10,Small,3,0,3,100,933,967,933,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T168,P12,Electrical switchgear,5,Large,3,0,2,97,27900,4367,14667,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T169,P19,HVAC rooftop units,11,Small,3,0,2,98,5167,2133,3100,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",11
+T170,P04,HVAC rooftop units,3,Small,3,0,3,100,2733,433,1267,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T171,P16,Roofing membrane,3,Small,3,0,2,98,2100,1200,700,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T172,P11,Roofing membrane,5,Medium,3,0,2,95,6367,1367,3867,Expedite,Accept,Expedite,1,0,1,1 Near-identical,"same material, same job size, similar duration",4
+T173,P02,Concrete & masonry,3,Medium,3,0,3,98,7700,1133,4400,Expedite,Accept,Expedite,1,0,1,1 Near-identical,"same material, same job size, similar duration",11
+T174,P06,Structural steel,14,Large,3,0,3,99,11000,11733,11333,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T175,P09,Electrical switchgear,2,Large,3,0,2,96,17733,2900,7567,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",3
+T176,P20,HVAC rooftop units,9,Medium,3,0,3,99,13867,8700,11300,Accept,Switch,Accept,1,0,1,1 Near-identical,"same material, same job size, similar duration",8
+T177,P04,Structural steel,3,Small,3,0,3,99,700,233,433,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T178,P15,Structural steel,11,Large,3,0,3,98,10467,9967,10200,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T179,P04,Roofing membrane,3,Small,3,0,2,98,3233,600,1967,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T180,P02,Structural steel,2,Medium,3,0,3,99,867,767,833,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T181,P04,Roofing membrane,3,Small,3,0,2,98,3100,467,1833,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T182,P16,Structural steel,5,Small,3,0,2,98,1133,1233,933,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",12
+T183,P13,HVAC rooftop units,14,Small,3,0,3,98,7067,2300,4733,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T184,P15,Concrete & masonry,4,Large,3,0,2,97,9133,2867,5067,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T185,P07,HVAC rooftop units,1,Small,3,0,3,97,2567,500,1533,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T186,P20,Electrical switchgear,2,Medium,3,0,2,99,14533,5233,9867,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",4
+T187,P06,Lighting,5,Large,3,0,2,98,9367,4200,6800,Expedite,Expedite,Expedite,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T188,P19,Concrete & masonry,12,Small,3,0,2,99,3300,967,1267,Switch,Accept,Switch,1,0,1,1 Near-identical,"same material, same job size, similar duration",7
+T189,P07,Roofing membrane,2,Small,3,0,3,95,2900,300,1567,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T190,P05,Structural steel,5,Medium,3,0,3,98,900,1567,1167,Expedite,Accept,Accept,0,0,0,1 Near-identical,"same material, same job size, similar duration",5
+T191,P11,Concrete & masonry,15,Medium,3,0,3,99,12367,1900,7100,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T192,P04,Structural steel,13,Small,3,0,3,98,1300,1233,1133,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",11
+T193,P20,Roofing membrane,12,Medium,3,0,2,97,8100,1933,4700,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T194,P19,Lighting,6,Small,3,0,3,97,1533,1367,1100,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",5
+T195,P19,Concrete & masonry,13,Small,3,0,3,98,4333,1033,2300,Switch,Accept,Switch,1,0,1,1 Near-identical,"same material, same job size, similar duration",5
+T196,P10,Roofing membrane,2,Small,3,0,3,95,2833,233,1567,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",7
+T197,P15,Structural steel,13,Large,3,0,3,98,6300,5200,5733,Switch,Switch,Switch,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T198,P11,Roofing membrane,4,Medium,3,0,3,96,6933,1467,4233,Expedite,Accept,Expedite,1,0,1,1 Near-identical,"same material, same job size, similar duration",4
+T199,P08,Structural steel,2,Medium,3,0,3,99,1400,1300,1367,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",6
+T200,P16,Lighting,9,Small,3,0,3,98,1867,1300,633,Accept,Accept,Accept,0,1,1,1 Near-identical,"same material, same job size, similar duration",8
+T001,P16,Roofing membrane,12,Small,3,0,1,77,2967,2400,2200,Switch,Accept,Accept,0,0,0,2 Different duration,"same material, same job size, very different duration",4
+T002,P09,HVAC rooftop units,4,Large,3,0,2,74,12600,3933,8200,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T003,P17,Electrical switchgear,10,Medium,3,0,2,78,21700,8567,15133,Accept,Switch,Accept,1,0,1,2 Different duration,"same material, same job size, very different duration",6
+T004,P17,Concrete & masonry,12,Medium,3,0,3,79,9300,2967,4800,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",10
+T005,P15,Electrical switchgear,14,Large,3,0,2,70,44200,10533,27333,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T006,P14,Concrete & masonry,13,Medium,3,0,2,79,11367,1667,6267,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",13
+T007,P05,Lighting,7,Medium,3,0,2,79,6233,2200,4200,Switch,Accept,Accept,0,0,0,2 Different duration,"same material, same job size, very different duration",6
+T008,P02,Electrical switchgear,4,Medium,3,0,2,73,12700,2633,6733,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T009,P04,Lighting,14,Small,3,0,3,75,3667,533,2067,Switch,Accept,Switch,1,0,1,2 Different duration,"same material, same job size, very different duration",8
+T010,P15,Lighting,3,Large,3,0,3,74,4400,2333,3400,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T011,P05,Lighting,7,Medium,3,0,2,79,5767,1733,3733,Switch,Accept,Accept,0,0,0,2 Different duration,"same material, same job size, very different duration",6
+T012,P15,Roofing membrane,11,Large,3,0,2,74,12000,10600,10000,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T013,P07,HVAC rooftop units,11,Small,3,0,3,78,3633,1500,2567,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",8
+T014,P05,Structural steel,12,Medium,3,0,3,76,6000,5900,5933,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T015,P10,Roofing membrane,12,Small,3,0,2,78,3700,800,1567,Switch,Accept,Accept,0,0,0,2 Different duration,"same material, same job size, very different duration",9
+T016,P14,Electrical switchgear,7,Medium,3,0,3,78,12667,2400,5533,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T017,P05,HVAC rooftop units,11,Medium,3,0,2,77,6133,2667,2667,Accept,Switch,Switch,0,0,0,2 Different duration,"same material, same job size, very different duration",9
+T018,P07,Structural steel,3,Small,3,0,2,78,1067,1167,1100,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",13
+T019,P03,Concrete & masonry,4,Large,3,0,3,79,14167,4600,9367,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",9
+T020,P20,Concrete & masonry,9,Medium,3,0,2,78,6900,767,3467,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T021,P06,Roofing membrane,2,Large,3,0,2,77,8833,3133,5967,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",10
+T022,P18,HVAC rooftop units,11,Large,3,0,3,77,14833,5067,7633,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T023,P11,Concrete & masonry,2,Medium,3,0,2,73,7100,567,3700,Expedite,Accept,Expedite,1,0,1,2 Different duration,"same material, same job size, very different duration",9
+T024,P20,Electrical switchgear,10,Medium,3,0,2,77,24267,11367,17800,Accept,Switch,Accept,1,0,1,2 Different duration,"same material, same job size, very different duration",4
+T025,P07,Structural steel,10,Small,3,0,2,79,400,500,267,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T026,P05,Roofing membrane,3,Medium,3,0,3,76,6900,2033,4467,Expedite,Accept,Expedite,1,0,1,2 Different duration,"same material, same job size, very different duration",8
+T027,P17,Structural steel,11,Medium,3,0,3,77,3500,2333,2933,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T028,P16,HVAC rooftop units,13,Small,3,0,3,76,5300,1667,3533,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",10
+T029,P18,Lighting,11,Large,3,0,3,76,9933,6067,8000,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T030,P14,Concrete & masonry,15,Medium,3,0,2,78,12933,2600,7133,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",16
+T031,P09,Structural steel,3,Large,3,0,3,79,800,1600,1067,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",8
+T032,P14,Electrical switchgear,3,Medium,3,0,3,73,9467,1667,4000,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",8
+T033,P01,Lighting,4,Small,3,0,2,75,2867,867,1833,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T034,P07,HVAC rooftop units,10,Small,3,0,3,79,3133,2000,1333,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T035,P04,Roofing membrane,7,Small,3,0,3,79,3667,500,2067,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T036,P06,Electrical switchgear,15,Large,3,0,2,70,37000,12700,19067,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T037,P10,Lighting,9,Small,3,0,2,78,1933,1767,1800,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T038,P07,Structural steel,11,Small,3,0,2,79,1733,933,1333,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",9
+T039,P07,Lighting,7,Small,3,0,2,79,2600,433,1533,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T040,P18,Roofing membrane,13,Large,3,0,3,75,11500,900,6133,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T041,P10,Roofing membrane,11,Small,3,0,2,79,2567,1100,1333,Switch,Accept,Accept,0,0,0,2 Different duration,"same material, same job size, very different duration",7
+T042,P16,Lighting,1,Small,3,0,3,79,1767,533,800,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",12
+T043,P05,Concrete & masonry,7,Medium,3,0,3,78,9067,1033,5033,Switch,Accept,Switch,1,0,1,2 Different duration,"same material, same job size, very different duration",3
+T044,P17,Roofing membrane,14,Medium,3,0,2,77,8833,2733,5233,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T045,P13,HVAC rooftop units,14,Small,3,0,3,78,5167,900,2267,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",11
+T046,P06,Lighting,11,Large,3,0,3,76,7600,4333,6000,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T047,P18,Roofing membrane,12,Large,3,0,2,74,14233,8933,10867,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T048,P05,Electrical switchgear,12,Medium,3,0,3,77,14700,7667,5867,Accept,Switch,Accept,1,0,1,2 Different duration,"same material, same job size, very different duration",8
+T049,P12,Structural steel,6,Large,3,0,3,77,2467,3433,2933,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T050,P17,Electrical switchgear,9,Medium,3,0,3,78,15867,3800,9733,Accept,Switch,Accept,1,0,1,2 Different duration,"same material, same job size, very different duration",4
+T051,P20,Concrete & masonry,3,Medium,3,0,2,76,6067,1400,2800,Expedite,Accept,Expedite,1,0,1,2 Different duration,"same material, same job size, very different duration",10
+T052,P17,HVAC rooftop units,11,Medium,3,0,3,76,10333,5933,8133,Accept,Switch,Switch,0,0,0,2 Different duration,"same material, same job size, very different duration",8
+T053,P11,Electrical switchgear,9,Medium,3,0,2,77,15933,6433,11167,Accept,Switch,Accept,1,0,1,2 Different duration,"same material, same job size, very different duration",3
+T054,P07,Electrical switchgear,12,Small,3,0,2,73,8933,1967,5200,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T055,P11,Lighting,6,Medium,3,0,2,78,5167,1300,2300,Accept,Accept,Expedite,1,1,0,2 Different duration,"same material, same job size, very different duration",7
+T056,P11,Roofing membrane,3,Medium,3,0,2,75,5467,467,2733,Expedite,Accept,Expedite,1,0,1,2 Different duration,"same material, same job size, very different duration",6
+T057,P06,Concrete & masonry,13,Large,3,0,2,76,22267,5433,12467,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",8
+T058,P07,Electrical switchgear,3,Small,3,0,2,77,3967,4400,667,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",10
+T059,P14,Roofing membrane,2,Medium,3,0,2,77,5233,633,2933,Expedite,Accept,Expedite,1,0,1,2 Different duration,"same material, same job size, very different duration",8
+T060,P04,HVAC rooftop units,11,Small,3,0,2,77,3667,2167,2600,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T061,P16,Structural steel,12,Small,3,0,2,76,1800,1033,1433,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",9
+T062,P04,Lighting,11,Small,3,0,2,75,3167,933,2033,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T063,P16,HVAC rooftop units,10,Small,3,0,3,79,6467,2900,4700,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T064,P04,Concrete & masonry,4,Small,3,0,2,76,3500,333,1933,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T065,P14,Roofing membrane,13,Medium,3,0,2,76,11200,4767,7967,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T066,P02,Concrete & masonry,6,Medium,3,0,2,78,10067,2333,6200,Switch,Accept,Expedite,1,0,0,2 Different duration,"same material, same job size, very different duration",6
+T067,P09,Concrete & masonry,3,Large,3,0,2,79,9033,2667,4533,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",12
+T068,P08,Concrete & masonry,11,Medium,3,0,3,79,9967,1467,5733,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T069,P05,Roofing membrane,6,Medium,3,0,3,79,8033,1967,5000,Switch,Accept,Expedite,1,0,0,2 Different duration,"same material, same job size, very different duration",4
+T070,P03,Roofing membrane,1,Large,3,0,3,76,7900,2233,5067,Accept,Expedite,Expedite,0,0,0,2 Different duration,"same material, same job size, very different duration",10
+T071,P20,HVAC rooftop units,2,Medium,3,0,2,78,5800,833,2933,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T072,P13,HVAC rooftop units,5,Small,3,0,2,78,4333,2433,3400,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T073,P05,Roofing membrane,6,Medium,3,0,3,79,8167,2100,5133,Switch,Accept,Expedite,1,0,0,2 Different duration,"same material, same job size, very different duration",4
+T074,P05,Lighting,7,Medium,3,0,2,79,4900,933,2867,Switch,Accept,Accept,0,0,0,2 Different duration,"same material, same job size, very different duration",6
+T075,P13,Electrical switchgear,3,Small,3,0,3,77,5967,733,3133,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",11
+T076,P04,Electrical switchgear,5,Small,3,0,2,75,6767,1633,2633,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T077,P12,Concrete & masonry,6,Large,3,0,3,79,12800,467,6600,Switch,Expedite,Expedite,0,0,0,2 Different duration,"same material, same job size, very different duration",4
+T078,P05,Structural steel,2,Medium,3,0,2,79,1667,900,1233,Accept,Accept,Expedite,1,1,0,2 Different duration,"same material, same job size, very different duration",14
+T079,P19,Lighting,14,Small,3,0,3,75,2600,1433,1467,Switch,Accept,Switch,1,0,1,2 Different duration,"same material, same job size, very different duration",8
+T080,P19,Lighting,4,Small,3,0,3,78,1133,867,467,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T081,P10,Lighting,1,Small,3,0,3,79,2133,233,1167,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",8
+T082,P07,Electrical switchgear,5,Small,3,0,2,75,6633,1733,2467,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T083,P03,Roofing membrane,4,Large,3,0,2,79,11567,2400,7000,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T084,P06,Roofing membrane,2,Large,3,0,2,77,8600,2900,5733,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",10
+T085,P18,Lighting,5,Large,3,0,3,79,5633,5833,4267,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T086,P11,Structural steel,3,Medium,3,0,3,79,733,1033,400,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",12
+T087,P17,Electrical switchgear,13,Medium,3,0,3,76,17600,3667,8067,Accept,Switch,Accept,1,0,1,2 Different duration,"same material, same job size, very different duration",9
+T088,P07,Concrete & masonry,14,Small,3,0,3,76,5033,233,2533,Switch,Accept,Switch,1,0,1,2 Different duration,"same material, same job size, very different duration",10
+T089,P07,Structural steel,4,Small,3,0,3,79,600,1000,667,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",11
+T090,P13,Lighting,1,Small,3,0,3,79,1700,900,700,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",11
+T091,P05,Concrete & masonry,5,Medium,3,0,2,77,7400,667,3767,Switch,Accept,Expedite,1,0,0,2 Different duration,"same material, same job size, very different duration",6
+T092,P06,Lighting,13,Large,3,0,3,74,16433,8200,12300,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T093,P19,Electrical switchgear,10,Small,3,0,2,79,11000,3267,7033,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T094,P20,Roofing membrane,11,Medium,3,0,3,73,8433,3233,5200,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T095,P08,Structural steel,5,Medium,3,0,2,78,1500,1000,1133,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T096,P19,Lighting,13,Small,3,0,2,74,3167,3000,3100,Switch,Accept,Accept,0,0,0,2 Different duration,"same material, same job size, very different duration",7
+T097,P20,Electrical switchgear,2,Medium,3,0,2,74,15067,4833,9933,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T098,P05,Concrete & masonry,7,Medium,3,0,3,78,7767,267,3733,Switch,Accept,Switch,1,0,1,2 Different duration,"same material, same job size, very different duration",3
+T099,P19,HVAC rooftop units,15,Small,3,0,2,78,5800,1900,3167,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",11
+T100,P04,Structural steel,12,Small,3,0,2,76,2067,2700,2367,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T101,P10,Structural steel,10,Small,3,0,2,79,2000,1367,1633,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T102,P02,HVAC rooftop units,2,Medium,3,0,2,78,2867,3033,800,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T103,P02,Concrete & masonry,6,Medium,3,0,2,78,9300,1567,5433,Switch,Accept,Expedite,1,0,0,2 Different duration,"same material, same job size, very different duration",6
+T104,P03,Electrical switchgear,2,Large,3,0,3,72,14733,7267,4000,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T105,P04,Structural steel,7,Small,3,0,3,78,1633,1200,1400,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T106,P16,Electrical switchgear,13,Small,3,0,2,72,9333,1367,4667,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T107,P12,Electrical switchgear,1,Large,3,0,2,74,13367,7567,3833,Accept,Expedite,Expedite,0,0,0,2 Different duration,"same material, same job size, very different duration",7
+T108,P02,Concrete & masonry,5,Medium,3,0,2,77,8967,1367,5133,Expedite,Accept,Expedite,1,0,1,2 Different duration,"same material, same job size, very different duration",7
+T109,P07,Structural steel,1,Small,3,0,3,74,967,900,933,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",14
+T110,P08,Structural steel,12,Medium,3,0,3,76,3300,2533,2867,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T111,P13,HVAC rooftop units,12,Small,3,0,3,77,4633,3667,3800,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",8
+T112,P08,Roofing membrane,5,Medium,3,0,1,78,7133,2300,4700,Expedite,Accept,Expedite,1,0,1,2 Different duration,"same material, same job size, very different duration",6
+T113,P02,Electrical switchgear,8,Medium,3,0,2,79,11000,8833,4133,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T114,P15,Lighting,10,Large,3,0,2,78,7100,6267,5367,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T115,P06,Concrete & masonry,15,Large,3,0,2,75,20567,8067,13133,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",10
+T116,P11,Electrical switchgear,9,Medium,3,0,2,77,15800,6567,11167,Accept,Switch,Accept,1,0,1,2 Different duration,"same material, same job size, very different duration",3
+T117,P10,Structural steel,2,Small,3,0,3,77,633,300,467,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",14
+T118,P03,Lighting,13,Large,3,0,3,74,18233,9067,13633,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T119,P02,Structural steel,13,Medium,3,0,3,77,6033,7467,6733,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",8
+T120,P03,Concrete & masonry,2,Large,3,0,2,77,10300,3167,6300,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",13
+T121,P01,Concrete & masonry,12,Small,3,0,2,76,6967,1633,4267,Switch,Accept,Switch,1,0,1,2 Different duration,"same material, same job size, very different duration",4
+T122,P02,Roofing membrane,10,Medium,3,0,3,77,11567,5533,8567,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T123,P16,Lighting,12,Small,3,0,3,77,3067,2467,2800,Switch,Accept,Accept,0,0,0,2 Different duration,"same material, same job size, very different duration",6
+T124,P04,Structural steel,2,Small,3,0,3,77,1333,1300,1333,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",15
+T125,P15,Concrete & masonry,3,Large,3,0,1,78,7133,2167,4400,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",12
+T126,P06,Roofing membrane,2,Large,3,0,2,77,8300,2600,5433,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",10
+T127,P13,Concrete & masonry,14,Small,3,0,3,77,5967,1067,3500,Switch,Accept,Switch,1,0,1,2 Different duration,"same material, same job size, very different duration",11
+T128,P14,Electrical switchgear,15,Medium,3,0,2,78,23167,3467,13333,Accept,Switch,Switch,0,0,0,2 Different duration,"same material, same job size, very different duration",13
+T129,P12,Structural steel,12,Large,3,0,1,78,4533,6233,5367,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T130,P17,Electrical switchgear,5,Medium,3,0,2,76,13667,1400,7533,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T131,P01,Lighting,9,Small,3,0,2,78,3433,2367,2367,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T132,P15,Concrete & masonry,11,Large,3,0,3,75,12700,7900,9033,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T133,P05,Concrete & masonry,5,Medium,3,0,2,77,7567,900,3933,Switch,Accept,Expedite,1,0,0,2 Different duration,"same material, same job size, very different duration",6
+T134,P11,Electrical switchgear,15,Medium,3,0,2,78,19333,1700,10167,Accept,Switch,Switch,0,0,0,2 Different duration,"same material, same job size, very different duration",12
+T135,P15,Structural steel,3,Large,3,0,3,79,6367,5333,5833,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",9
+T136,P04,Electrical switchgear,12,Small,3,0,3,75,9667,2033,5667,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T137,P12,Roofing membrane,11,Large,3,0,2,74,14000,6200,10133,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T138,P05,Electrical switchgear,10,Medium,3,0,2,78,15833,3300,9533,Accept,Switch,Accept,1,0,1,2 Different duration,"same material, same job size, very different duration",6
+T139,P12,Lighting,3,Large,3,0,3,74,5267,2167,3000,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T140,P01,Lighting,4,Small,3,0,2,75,3300,1300,2267,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T141,P16,HVAC rooftop units,12,Small,3,0,3,77,5567,3967,4733,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",9
+T142,P08,Electrical switchgear,1,Medium,3,0,3,78,7500,6133,1300,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",9
+T143,P19,Lighting,14,Small,3,0,3,75,1933,2033,800,Switch,Accept,Switch,1,0,1,2 Different duration,"same material, same job size, very different duration",8
+T144,P16,Electrical switchgear,14,Small,3,0,2,71,9333,1867,4567,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T145,P04,Lighting,11,Small,3,0,2,75,2567,1000,1433,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T146,P04,Lighting,5,Small,3,0,1,75,2133,333,1233,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T147,P11,Electrical switchgear,9,Medium,3,0,2,77,11900,2667,7267,Accept,Switch,Accept,1,0,1,2 Different duration,"same material, same job size, very different duration",3
+T148,P04,Concrete & masonry,3,Small,3,0,3,79,3700,200,1933,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T149,P10,Electrical switchgear,15,Small,3,0,3,70,8700,2767,4500,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T150,P11,Electrical switchgear,12,Medium,3,0,3,77,19567,2567,11100,Accept,Switch,Accept,1,0,1,2 Different duration,"same material, same job size, very different duration",7
+T151,P05,Concrete & masonry,9,Medium,3,0,2,78,10467,2633,6567,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T152,P12,Concrete & masonry,4,Large,3,0,3,79,11567,1167,6333,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",9
+T153,P09,Electrical switchgear,14,Large,3,0,2,71,36600,3500,18733,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T154,P19,Lighting,2,Small,3,0,2,76,1533,533,600,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",8
+T155,P03,Electrical switchgear,5,Large,3,0,2,75,19900,7600,7067,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T156,P16,Electrical switchgear,13,Small,3,0,2,72,11233,2000,6567,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T157,P18,Concrete & masonry,7,Large,3,0,2,77,10767,2033,4367,Switch,Expedite,Switch,1,0,1,2 Different duration,"same material, same job size, very different duration",3
+T158,P07,HVAC rooftop units,6,Small,3,0,3,76,2600,1700,1967,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T159,P17,Roofing membrane,5,Medium,3,0,1,78,6067,1167,3367,Expedite,Accept,Expedite,1,0,1,2 Different duration,"same material, same job size, very different duration",6
+T160,P18,Structural steel,12,Large,3,0,1,78,15667,15100,15367,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T161,P04,Lighting,15,Small,3,0,3,78,4200,1333,2767,Switch,Accept,Switch,1,0,1,2 Different duration,"same material, same job size, very different duration",10
+T162,P01,Concrete & masonry,12,Small,3,0,2,76,6133,1133,3433,Switch,Accept,Switch,1,0,1,2 Different duration,"same material, same job size, very different duration",4
+T163,P12,Structural steel,3,Large,3,0,3,79,1467,2167,1800,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",9
+T164,P07,HVAC rooftop units,13,Small,3,0,3,76,3467,2367,1767,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",10
+T165,P05,HVAC rooftop units,2,Medium,3,0,2,78,4100,1567,1900,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T166,P16,Lighting,5,Small,3,0,1,75,1933,733,1367,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T167,P16,Structural steel,10,Small,3,0,2,79,933,867,867,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T168,P12,Electrical switchgear,5,Large,3,0,2,75,27900,4767,15000,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",5
+T169,P19,HVAC rooftop units,11,Small,3,0,3,78,5167,3133,4167,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T170,P04,HVAC rooftop units,3,Small,3,0,3,79,2733,533,1500,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",8
+T171,P16,Roofing membrane,3,Small,3,0,2,75,2100,833,733,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T172,P11,Roofing membrane,5,Medium,3,0,1,78,6367,1467,3900,Expedite,Accept,Expedite,1,0,1,2 Different duration,"same material, same job size, very different duration",5
+T173,P02,Concrete & masonry,3,Medium,3,0,1,73,7700,1167,4433,Expedite,Accept,Expedite,1,0,1,2 Different duration,"same material, same job size, very different duration",8
+T174,P06,Structural steel,14,Large,3,0,2,76,11000,11600,11300,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",8
+T175,P09,Electrical switchgear,2,Large,3,0,3,72,17733,3833,7167,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T176,P20,HVAC rooftop units,9,Medium,3,0,2,78,13867,10867,12333,Accept,Switch,Accept,1,0,1,2 Different duration,"same material, same job size, very different duration",4
+T177,P04,Structural steel,3,Small,3,0,3,79,700,367,533,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",14
+T178,P15,Structural steel,11,Large,3,0,3,75,10467,8767,8667,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",4
+T179,P04,Roofing membrane,3,Small,3,0,2,75,3233,600,1800,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T180,P02,Structural steel,2,Medium,3,0,2,79,867,533,333,Accept,Accept,Expedite,1,1,0,2 Different duration,"same material, same job size, very different duration",16
+T181,P04,Roofing membrane,3,Small,3,0,2,75,3100,467,1667,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T182,P16,Structural steel,5,Small,3,0,2,77,1133,1767,1200,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T183,P13,HVAC rooftop units,14,Small,3,0,3,78,7067,2000,4367,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",11
+T184,P15,Concrete & masonry,4,Large,3,0,3,79,9133,867,4433,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",10
+T185,P07,HVAC rooftop units,1,Small,3,0,2,78,2567,1233,1100,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",14
+T186,P20,Electrical switchgear,2,Medium,3,0,2,74,14533,4300,9400,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T187,P06,Lighting,5,Large,3,0,3,77,9367,3633,6500,Expedite,Expedite,Expedite,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T188,P19,Concrete & masonry,12,Small,3,0,2,79,3300,2300,1700,Switch,Accept,Accept,0,0,0,2 Different duration,"same material, same job size, very different duration",6
+T189,P07,Roofing membrane,2,Small,3,0,2,76,2900,467,1700,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T190,P05,Structural steel,5,Medium,3,0,2,73,900,2600,1767,Expedite,Accept,Expedite,1,0,1,2 Different duration,"same material, same job size, very different duration",3
+T191,P11,Concrete & masonry,15,Medium,3,0,2,78,12367,967,6267,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",15
+T192,P04,Structural steel,13,Small,3,0,2,79,1300,1533,1100,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",11
+T193,P20,Roofing membrane,12,Medium,3,0,3,71,8100,2233,4767,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T194,P19,Lighting,6,Small,3,0,2,76,1533,1233,1000,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T195,P19,Concrete & masonry,13,Small,3,0,2,79,4333,767,2200,Switch,Accept,Switch,1,0,1,2 Different duration,"same material, same job size, very different duration",10
+T196,P10,Roofing membrane,2,Small,3,0,2,76,2833,533,1633,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",6
+T197,P15,Structural steel,13,Large,3,0,1,77,6300,4733,5533,Switch,Switch,Switch,0,1,1,2 Different duration,"same material, same job size, very different duration",7
+T198,P11,Roofing membrane,4,Medium,3,0,1,75,6933,2067,4533,Expedite,Accept,Expedite,1,0,1,2 Different duration,"same material, same job size, very different duration",5
+T199,P08,Structural steel,2,Medium,3,0,3,79,1400,800,667,Accept,Accept,Expedite,1,1,0,2 Different duration,"same material, same job size, very different duration",16
+T200,P16,Lighting,9,Small,3,0,2,78,1867,1333,1100,Accept,Accept,Accept,0,1,1,2 Different duration,"same material, same job size, very different duration",3
+T001,P16,Roofing membrane,12,Small,3,0,2,60,2967,1500,2033,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",101
+T002,P09,HVAC rooftop units,4,Large,3,0,2,58,12600,2467,5067,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",78
+T003,P17,Electrical switchgear,10,Medium,3,0,3,60,21700,19800,20733,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",99
+T004,P17,Concrete & masonry,12,Medium,3,0,2,60,9300,10900,10100,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",97
+T005,P15,Electrical switchgear,14,Large,3,0,2,59,44200,55067,49633,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",85
+T006,P14,Concrete & masonry,13,Medium,3,0,3,60,11367,3567,7367,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",91
+T007,P05,Lighting,7,Medium,3,0,3,60,6233,10900,8567,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",112
+T008,P02,Electrical switchgear,4,Medium,3,0,3,60,12700,16033,14367,Accept,Accept,Expedite,1,1,0,3 Different material,"different material, same job size",108
+T009,P04,Lighting,14,Small,3,0,3,60,3667,8633,6167,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",102
+T010,P15,Lighting,3,Large,3,0,2,60,4400,7567,5600,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",80
+T011,P05,Lighting,7,Medium,3,0,3,60,5767,10433,8100,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",112
+T012,P15,Roofing membrane,11,Large,3,0,3,60,12000,8167,10067,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",75
+T013,P07,HVAC rooftop units,11,Small,3,0,3,60,3633,4367,3900,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",100
+T014,P05,Structural steel,12,Medium,3,0,3,60,6000,6967,6467,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",106
+T015,P10,Roofing membrane,12,Small,3,0,1,60,3700,2500,3000,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",99
+T016,P14,Electrical switchgear,7,Medium,3,0,3,60,12667,14200,13433,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",92
+T017,P05,HVAC rooftop units,11,Medium,3,0,2,60,6133,3033,3800,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",104
+T018,P07,Structural steel,3,Small,3,0,3,60,1067,6700,3833,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",97
+T019,P03,Concrete & masonry,4,Large,3,0,3,60,14167,28567,21400,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",74
+T020,P20,Concrete & masonry,9,Medium,3,0,3,60,6900,3000,4933,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",90
+T021,P06,Roofing membrane,2,Large,3,0,2,60,8833,8700,8700,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",89
+T022,P18,HVAC rooftop units,11,Large,3,0,3,60,14833,27967,20767,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",76
+T023,P11,Concrete & masonry,2,Medium,3,0,3,60,7100,9833,8467,Expedite,Accept,Accept,0,0,0,3 Different material,"different material, same job size",97
+T024,P20,Electrical switchgear,10,Medium,3,0,3,60,24267,20433,22400,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",101
+T025,P07,Structural steel,10,Small,3,0,2,60,400,1033,633,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",97
+T026,P05,Roofing membrane,3,Medium,3,0,3,60,6900,11633,9267,Expedite,Accept,Accept,0,0,0,3 Different material,"different material, same job size",107
+T027,P17,Structural steel,11,Medium,3,0,2,60,3500,3767,3333,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",99
+T028,P16,HVAC rooftop units,13,Small,3,0,3,60,5300,9467,7367,Accept,Accept,Switch,1,1,0,3 Different material,"different material, same job size",91
+T029,P18,Lighting,11,Large,3,0,3,60,9933,15533,9800,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",79
+T030,P14,Concrete & masonry,15,Medium,3,0,3,60,12933,21733,17333,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",91
+T031,P09,Structural steel,3,Large,3,0,3,60,800,5000,2900,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",82
+T032,P14,Electrical switchgear,3,Medium,3,0,3,60,9467,9000,9233,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",92
+T033,P01,Lighting,4,Small,3,0,2,60,2867,867,1900,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",109
+T034,P07,HVAC rooftop units,10,Small,3,0,3,60,3133,5400,4267,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",100
+T035,P04,Roofing membrane,7,Small,3,0,2,60,3667,1133,2333,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",103
+T036,P06,Electrical switchgear,15,Large,3,0,1,60,37000,47800,42400,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",96
+T037,P10,Lighting,9,Small,3,0,2,60,1933,3667,2800,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",102
+T038,P07,Structural steel,11,Small,3,0,2,60,1733,3600,2600,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",97
+T039,P07,Lighting,7,Small,3,0,3,60,2600,5167,3867,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",106
+T040,P18,Roofing membrane,13,Large,3,0,2,60,11500,11300,11367,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",79
+T041,P10,Roofing membrane,11,Small,3,0,3,60,2567,7033,4767,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",99
+T042,P16,Lighting,1,Small,3,0,3,58,1767,1733,1767,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",93
+T043,P05,Concrete & masonry,7,Medium,3,0,2,60,9067,14467,11700,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",98
+T044,P17,Roofing membrane,14,Medium,3,0,3,60,8833,18333,13600,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",104
+T045,P13,HVAC rooftop units,14,Small,3,0,3,60,5167,2300,2100,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",97
+T046,P06,Lighting,11,Large,3,0,2,60,7600,5000,1267,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",88
+T047,P18,Roofing membrane,12,Large,3,0,3,60,14233,7767,10967,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",79
+T048,P05,Electrical switchgear,12,Medium,3,0,2,60,14700,21633,18167,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",108
+T049,P12,Structural steel,6,Large,3,0,3,58,2467,4233,2967,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",79
+T050,P17,Electrical switchgear,9,Medium,3,0,2,60,15867,20333,18100,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",99
+T051,P20,Concrete & masonry,3,Medium,3,0,3,60,6067,7067,6567,Expedite,Accept,Accept,0,0,0,3 Different material,"different material, same job size",90
+T052,P17,HVAC rooftop units,11,Medium,3,0,3,60,10333,8100,9200,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",101
+T053,P11,Electrical switchgear,9,Medium,3,0,3,60,15933,20433,18200,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",101
+T054,P07,Electrical switchgear,12,Small,3,0,2,60,8933,12500,10567,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",113
+T055,P11,Lighting,6,Medium,3,0,2,60,5167,4000,1733,Accept,Accept,Expedite,1,1,0,3 Different material,"different material, same job size",106
+T056,P11,Roofing membrane,3,Medium,3,0,3,60,5467,6633,6067,Expedite,Accept,Accept,0,0,0,3 Different material,"different material, same job size",107
+T057,P06,Concrete & masonry,13,Large,3,0,2,60,22267,18267,20267,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",82
+T058,P07,Electrical switchgear,3,Small,3,0,3,60,3967,2800,3400,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",113
+T059,P14,Roofing membrane,2,Medium,3,0,2,60,5233,9333,7300,Expedite,Accept,Accept,0,0,0,3 Different material,"different material, same job size",98
+T060,P04,HVAC rooftop units,11,Small,3,0,3,60,3667,4167,3933,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",97
+T061,P16,Structural steel,12,Small,3,0,2,60,1800,2767,1633,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",84
+T062,P04,Lighting,11,Small,3,0,3,60,3167,3133,3167,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",102
+T063,P16,HVAC rooftop units,10,Small,3,0,3,60,6467,9033,7767,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",91
+T064,P04,Concrete & masonry,4,Small,3,0,2,60,3500,3467,3467,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",99
+T065,P14,Roofing membrane,13,Medium,3,0,1,60,11200,11367,10867,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",98
+T066,P02,Concrete & masonry,6,Medium,3,0,3,60,10067,7833,8933,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",101
+T067,P09,Concrete & masonry,3,Large,3,0,3,60,9033,16067,12533,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",75
+T068,P08,Concrete & masonry,11,Medium,3,0,2,60,9967,15167,12567,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",98
+T069,P05,Roofing membrane,6,Medium,3,0,2,60,8033,2067,4300,Switch,Accept,Expedite,1,0,0,3 Different material,"different material, same job size",107
+T070,P03,Roofing membrane,1,Large,3,0,3,59,7900,8367,8100,Accept,Expedite,Expedite,0,0,0,3 Different material,"different material, same job size",76
+T071,P20,HVAC rooftop units,2,Medium,3,0,3,60,5800,6000,5933,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",97
+T072,P13,HVAC rooftop units,5,Small,3,0,3,60,4333,4333,4333,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",97
+T073,P05,Roofing membrane,6,Medium,3,0,2,60,8167,1067,4433,Switch,Accept,Expedite,1,0,0,3 Different material,"different material, same job size",107
+T074,P05,Lighting,7,Medium,3,0,3,60,4900,9633,7233,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",112
+T075,P13,Electrical switchgear,3,Small,3,0,3,60,5967,4733,5333,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",107
+T076,P04,Electrical switchgear,5,Small,3,0,3,60,6767,8167,7467,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",107
+T077,P12,Concrete & masonry,6,Large,3,0,3,59,12800,14600,13567,Switch,Expedite,Expedite,0,0,0,3 Different material,"different material, same job size",76
+T078,P05,Structural steel,2,Medium,3,0,3,60,1667,967,467,Accept,Accept,Expedite,1,1,0,3 Different material,"different material, same job size",106
+T079,P19,Lighting,14,Small,3,0,3,60,2600,8000,5300,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",110
+T080,P19,Lighting,4,Small,3,0,3,60,1133,1367,1267,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",110
+T081,P10,Lighting,1,Small,3,0,3,58,2133,2100,2133,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",102
+T082,P07,Electrical switchgear,5,Small,3,0,3,60,6633,10233,8367,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",113
+T083,P03,Roofing membrane,4,Large,3,0,3,60,11567,25967,18800,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",76
+T084,P06,Roofing membrane,2,Large,3,0,2,60,8600,8267,8267,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",89
+T085,P18,Lighting,5,Large,3,0,2,60,5633,18867,12267,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",79
+T086,P11,Structural steel,3,Medium,3,0,2,60,733,1067,900,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",96
+T087,P17,Electrical switchgear,13,Medium,3,0,3,60,17600,26267,21933,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",99
+T088,P07,Concrete & masonry,14,Small,3,0,3,60,5033,10200,7633,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",106
+T089,P07,Structural steel,4,Small,3,0,3,60,600,1133,567,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",97
+T090,P13,Lighting,1,Small,3,0,3,57,1700,367,967,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",104
+T091,P05,Concrete & masonry,5,Medium,3,0,3,60,7400,17267,12367,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",98
+T092,P06,Lighting,13,Large,3,0,2,60,16433,8033,12267,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",88
+T093,P19,Electrical switchgear,10,Small,3,0,3,60,11000,12667,11833,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",114
+T094,P20,Roofing membrane,11,Medium,3,0,2,60,8433,13367,10867,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",104
+T095,P08,Structural steel,5,Medium,3,0,3,60,1500,4800,2733,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",98
+T096,P19,Lighting,13,Small,3,0,3,60,3167,2167,2633,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",110
+T097,P20,Electrical switchgear,2,Medium,3,0,3,60,15067,17200,16133,Accept,Accept,Expedite,1,1,0,3 Different material,"different material, same job size",101
+T098,P05,Concrete & masonry,7,Medium,3,0,2,60,7767,13967,10733,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",98
+T099,P19,HVAC rooftop units,15,Small,3,0,3,60,5800,7367,6600,Accept,Accept,Switch,1,1,0,3 Different material,"different material, same job size",104
+T100,P04,Structural steel,12,Small,3,0,1,60,2067,3633,2833,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",92
+T101,P10,Structural steel,10,Small,3,0,2,60,2000,1867,1500,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",86
+T102,P02,HVAC rooftop units,2,Medium,3,0,2,60,2867,2133,1300,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",104
+T103,P02,Concrete & masonry,6,Medium,3,0,3,60,9300,7467,8167,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",101
+T104,P03,Electrical switchgear,2,Large,3,0,2,60,14733,21367,18067,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",84
+T105,P04,Structural steel,7,Small,3,0,2,60,1633,833,1200,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",92
+T106,P16,Electrical switchgear,13,Small,3,0,3,60,9333,10400,9867,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",99
+T107,P12,Electrical switchgear,1,Large,3,0,2,59,13367,17000,15167,Accept,Expedite,Expedite,0,0,0,3 Different material,"different material, same job size",84
+T108,P02,Concrete & masonry,5,Medium,3,0,3,60,8967,17133,13067,Expedite,Accept,Accept,0,0,0,3 Different material,"different material, same job size",101
+T109,P07,Structural steel,1,Small,3,0,1,59,967,433,700,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",97
+T110,P08,Structural steel,12,Medium,3,0,2,60,3300,4867,3533,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",98
+T111,P13,HVAC rooftop units,12,Small,3,0,2,60,4633,8100,6367,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",97
+T112,P08,Roofing membrane,5,Medium,3,0,3,60,7133,11233,9167,Expedite,Accept,Accept,0,0,0,3 Different material,"different material, same job size",102
+T113,P02,Electrical switchgear,8,Medium,3,0,3,60,11000,13800,12400,Accept,Accept,Expedite,1,1,0,3 Different material,"different material, same job size",108
+T114,P15,Lighting,10,Large,3,0,3,60,7100,3300,5000,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",80
+T115,P06,Concrete & masonry,15,Large,3,0,3,59,20567,39433,30033,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",82
+T116,P11,Electrical switchgear,9,Medium,3,0,3,60,15800,20500,18133,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",101
+T117,P10,Structural steel,2,Small,3,0,3,60,633,1500,600,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",86
+T118,P03,Lighting,13,Large,3,0,2,60,18233,7233,11600,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",77
+T119,P02,Structural steel,13,Medium,3,0,3,60,6033,5000,2733,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",104
+T120,P03,Concrete & masonry,2,Large,3,0,2,60,10300,9400,9833,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",74
+T121,P01,Concrete & masonry,12,Small,3,0,2,60,6967,5800,6367,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",108
+T122,P02,Roofing membrane,10,Medium,3,0,3,60,11567,13000,12300,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",110
+T123,P16,Lighting,12,Small,3,0,2,60,3067,3400,2600,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",93
+T124,P04,Structural steel,2,Small,3,0,3,60,1333,833,300,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",92
+T125,P15,Concrete & masonry,3,Large,3,0,2,60,7133,12800,9967,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",73
+T126,P06,Roofing membrane,2,Large,3,0,2,60,8300,7900,7900,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",89
+T127,P13,Concrete & masonry,14,Small,3,0,3,60,5967,10967,8433,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",101
+T128,P14,Electrical switchgear,15,Medium,3,0,3,60,23167,32367,27367,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",92
+T129,P12,Structural steel,12,Large,3,0,2,60,4533,2700,1767,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",79
+T130,P17,Electrical switchgear,5,Medium,3,0,2,60,13667,15533,14600,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",99
+T131,P01,Lighting,9,Small,3,0,2,60,3433,4833,4100,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",109
+T132,P15,Concrete & masonry,11,Large,3,0,3,60,12700,2700,7667,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",73
+T133,P05,Concrete & masonry,5,Medium,3,0,3,60,7567,17433,12533,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",98
+T134,P11,Electrical switchgear,15,Medium,3,0,2,60,19333,28400,23767,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",101
+T135,P15,Structural steel,3,Large,3,0,2,60,6367,1700,3900,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",76
+T136,P04,Electrical switchgear,12,Small,3,0,2,60,9667,11933,10767,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",107
+T137,P12,Roofing membrane,11,Large,3,0,3,60,14000,7033,10533,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",81
+T138,P05,Electrical switchgear,10,Medium,3,0,3,60,15833,14933,15367,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",108
+T139,P12,Lighting,3,Large,3,0,2,60,5267,7900,6567,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",81
+T140,P01,Lighting,4,Small,3,0,2,60,3300,1300,2333,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",109
+T141,P16,HVAC rooftop units,12,Small,3,0,2,60,5567,9167,7367,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",91
+T142,P08,Electrical switchgear,1,Medium,3,0,2,60,7500,11700,9533,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",105
+T143,P19,Lighting,14,Small,3,0,3,60,1933,7333,4633,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",110
+T144,P16,Electrical switchgear,14,Small,3,0,2,60,9333,12367,10833,Accept,Accept,Switch,1,1,0,3 Different material,"different material, same job size",99
+T145,P04,Lighting,11,Small,3,0,3,60,2567,2533,2567,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",102
+T146,P04,Lighting,5,Small,3,0,3,60,2133,1967,2033,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",102
+T147,P11,Electrical switchgear,9,Medium,3,0,3,60,11900,16600,14233,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",101
+T148,P04,Concrete & masonry,3,Small,3,0,3,60,3700,9300,6467,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",99
+T149,P10,Electrical switchgear,15,Small,3,0,3,60,8700,10333,9500,Accept,Accept,Switch,1,1,0,3 Different material,"different material, same job size",105
+T150,P11,Electrical switchgear,12,Medium,3,0,2,60,19567,26533,23067,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",101
+T151,P05,Concrete & masonry,9,Medium,3,0,3,60,10467,6400,8400,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",98
+T152,P12,Concrete & masonry,4,Large,3,0,3,60,11567,24267,17900,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",76
+T153,P09,Electrical switchgear,14,Large,3,0,1,60,36600,33133,34900,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",85
+T154,P19,Lighting,2,Small,3,0,3,60,1533,300,800,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",110
+T155,P03,Electrical switchgear,5,Large,3,0,3,60,19900,17067,18467,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",84
+T156,P16,Electrical switchgear,13,Small,3,0,3,60,11233,12433,11767,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",99
+T157,P18,Concrete & masonry,7,Large,3,0,2,60,10767,17367,14033,Switch,Expedite,Expedite,0,0,0,3 Different material,"different material, same job size",75
+T158,P07,HVAC rooftop units,6,Small,3,0,2,60,2600,4967,3800,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",100
+T159,P17,Roofing membrane,5,Medium,3,0,2,60,6067,9433,7767,Expedite,Accept,Accept,0,0,0,3 Different material,"different material, same job size",104
+T160,P18,Structural steel,12,Large,3,0,3,60,15667,25233,20433,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",75
+T161,P04,Lighting,15,Small,3,0,3,60,4200,4833,4500,Switch,Accept,Switch,1,0,1,3 Different material,"different material, same job size",102
+T162,P01,Concrete & masonry,12,Small,3,0,2,60,6133,4967,5533,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",108
+T163,P12,Structural steel,3,Large,3,0,2,60,1467,3400,2433,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",79
+T164,P07,HVAC rooftop units,13,Small,3,0,3,60,3467,5933,4667,Accept,Accept,Switch,1,1,0,3 Different material,"different material, same job size",100
+T165,P05,HVAC rooftop units,2,Medium,3,0,3,60,4100,4467,4267,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",104
+T166,P16,Lighting,5,Small,3,0,3,60,1933,2367,2067,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",93
+T167,P16,Structural steel,10,Small,3,0,3,60,933,2633,1767,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",84
+T168,P12,Electrical switchgear,5,Large,3,0,3,60,27900,24800,26267,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",84
+T169,P19,HVAC rooftop units,11,Small,3,0,3,60,5167,3533,4367,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",104
+T170,P04,HVAC rooftop units,3,Small,3,0,2,60,2733,1667,733,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",97
+T171,P16,Roofing membrane,3,Small,3,0,3,60,2100,5667,3867,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",101
+T172,P11,Roofing membrane,5,Medium,3,0,3,60,6367,17733,12033,Expedite,Accept,Accept,0,0,0,3 Different material,"different material, same job size",107
+T173,P02,Concrete & masonry,3,Medium,3,0,2,60,7700,8633,8167,Expedite,Accept,Accept,0,0,0,3 Different material,"different material, same job size",101
+T174,P06,Structural steel,14,Large,3,0,1,60,11000,12400,11700,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",88
+T175,P09,Electrical switchgear,2,Large,3,0,2,60,17733,23467,20567,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",85
+T176,P20,HVAC rooftop units,9,Medium,3,0,3,60,13867,17233,15567,Accept,Switch,Switch,0,0,0,3 Different material,"different material, same job size",97
+T177,P04,Structural steel,3,Small,3,0,3,60,700,6233,3400,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",92
+T178,P15,Structural steel,11,Large,3,0,2,60,10467,18800,14600,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",76
+T179,P04,Roofing membrane,3,Small,3,0,3,60,3233,8833,6000,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",103
+T180,P02,Structural steel,2,Medium,3,0,3,60,867,3400,2167,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",104
+T181,P04,Roofing membrane,3,Small,3,0,3,60,3100,8700,5867,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",103
+T182,P16,Structural steel,5,Small,3,0,3,60,1133,1700,1400,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",84
+T183,P13,HVAC rooftop units,14,Small,3,0,3,60,7067,1467,4000,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",97
+T184,P15,Concrete & masonry,4,Large,3,0,3,60,9133,23000,16067,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",73
+T185,P07,HVAC rooftop units,1,Small,3,0,2,58,2567,3833,3200,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",100
+T186,P20,Electrical switchgear,2,Medium,3,0,3,60,14533,16667,15600,Accept,Accept,Expedite,1,1,0,3 Different material,"different material, same job size",101
+T187,P06,Lighting,5,Large,3,0,3,60,9367,24500,16900,Expedite,Expedite,Expedite,0,1,1,3 Different material,"different material, same job size",88
+T188,P19,Concrete & masonry,12,Small,3,0,2,60,3300,3167,3200,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",107
+T189,P07,Roofing membrane,2,Small,3,0,3,60,2900,1433,2167,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",108
+T190,P05,Structural steel,5,Medium,3,0,2,60,900,3433,2133,Expedite,Accept,Accept,0,0,0,3 Different material,"different material, same job size",106
+T191,P11,Concrete & masonry,15,Medium,3,0,3,60,12367,23400,17900,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",97
+T192,P04,Structural steel,13,Small,3,0,3,60,1300,2000,1400,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",92
+T193,P20,Roofing membrane,12,Medium,3,0,3,60,8100,10933,9467,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",104
+T194,P19,Lighting,6,Small,3,0,2,60,1533,967,1133,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",110
+T195,P19,Concrete & masonry,13,Small,3,0,3,60,4333,4733,4533,Switch,Accept,Accept,0,0,0,3 Different material,"different material, same job size",107
+T196,P10,Roofing membrane,2,Small,3,0,3,60,2833,1767,2267,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",99
+T197,P15,Structural steel,13,Large,3,0,2,60,6300,10267,8333,Switch,Switch,Switch,0,1,1,3 Different material,"different material, same job size",76
+T198,P11,Roofing membrane,4,Medium,3,0,3,60,6933,3300,5033,Expedite,Accept,Expedite,1,0,1,3 Different material,"different material, same job size",107
+T199,P08,Structural steel,2,Medium,3,0,3,60,1400,1767,467,Accept,Accept,Expedite,1,1,0,3 Different material,"different material, same job size",98
+T200,P16,Lighting,9,Small,3,0,3,60,1867,1033,1367,Accept,Accept,Accept,0,1,1,3 Different material,"different material, same job size",93
+T001,P16,Roofing membrane,12,Small,3,0,3,24,2967,5767,4367,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",78
+T002,P09,HVAC rooftop units,4,Large,3,0,2,24,12600,7667,10100,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",82
+T003,P17,Electrical switchgear,10,Medium,3,0,3,24,21700,19200,20467,Accept,Switch,Accept,1,0,1,4 Nothing in common,"different material, different job size, very different duration",39
+T004,P17,Concrete & masonry,12,Medium,3,0,3,24,9300,16433,12900,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",72
+T005,P15,Electrical switchgear,14,Large,3,0,3,24,44200,48633,46433,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",119
+T006,P14,Concrete & masonry,13,Medium,3,0,2,24,11367,14067,12700,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",82
+T007,P05,Lighting,7,Medium,3,0,3,24,6233,17967,12133,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",30
+T008,P02,Electrical switchgear,4,Medium,3,0,2,24,12700,16533,14633,Accept,Accept,Expedite,1,1,0,4 Nothing in common,"different material, different job size, very different duration",70
+T009,P04,Lighting,14,Small,3,0,3,24,3667,6400,5000,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",104
+T010,P15,Lighting,3,Large,3,0,3,24,4400,6233,5033,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",95
+T011,P05,Lighting,7,Medium,3,0,3,24,5767,17500,11667,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",30
+T012,P15,Roofing membrane,11,Large,3,0,3,24,12000,6600,8633,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",63
+T013,P07,HVAC rooftop units,11,Small,3,0,3,24,3633,6567,5133,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",46
+T014,P05,Structural steel,12,Medium,3,0,3,24,6000,12867,9467,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",69
+T015,P10,Roofing membrane,12,Small,3,0,3,24,3700,6500,5100,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",78
+T016,P14,Electrical switchgear,7,Medium,3,0,3,24,12667,6867,9767,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",25
+T017,P05,HVAC rooftop units,11,Medium,3,0,3,24,6133,1300,3333,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",50
+T018,P07,Structural steel,3,Small,3,0,3,24,1067,567,800,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",84
+T019,P03,Concrete & masonry,4,Large,3,0,2,24,14167,20133,17167,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",74
+T020,P20,Concrete & masonry,9,Medium,3,0,3,24,6900,7500,7233,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",19
+T021,P06,Roofing membrane,2,Large,3,0,2,24,8833,5667,7233,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",115
+T022,P18,HVAC rooftop units,11,Large,3,0,3,24,14833,25633,20267,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",56
+T023,P11,Concrete & masonry,2,Medium,3,0,2,24,7100,9700,8433,Expedite,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",101
+T024,P20,Electrical switchgear,10,Medium,3,0,3,24,24267,21800,23033,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",39
+T025,P07,Structural steel,10,Small,3,0,2,24,400,367,267,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",41
+T026,P05,Roofing membrane,3,Medium,3,0,3,24,6900,9067,7967,Expedite,Accept,Expedite,1,0,1,4 Nothing in common,"different material, different job size, very different duration",97
+T027,P17,Structural steel,11,Medium,3,0,3,24,3500,8600,5267,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",48
+T028,P16,HVAC rooftop units,13,Small,3,0,2,24,5300,10000,7667,Accept,Accept,Switch,1,1,0,4 Nothing in common,"different material, different job size, very different duration",77
+T029,P18,Lighting,11,Large,3,0,3,24,9933,12700,11333,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",66
+T030,P14,Concrete & masonry,15,Medium,3,0,2,24,12933,6267,9567,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",109
+T031,P09,Structural steel,3,Large,3,0,3,24,800,1967,1100,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",85
+T032,P14,Electrical switchgear,3,Medium,3,0,3,24,9467,11200,10300,Accept,Accept,Expedite,1,1,0,4 Nothing in common,"different material, different job size, very different duration",96
+T033,P01,Lighting,4,Small,3,0,2,24,2867,4667,3767,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",68
+T034,P07,HVAC rooftop units,10,Small,3,0,2,24,3133,3100,3133,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",39
+T035,P04,Roofing membrane,7,Small,3,0,3,24,3667,3100,3400,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",29
+T036,P06,Electrical switchgear,15,Large,3,0,3,24,37000,41367,39200,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",133
+T037,P10,Lighting,9,Small,3,0,3,24,1933,1267,1500,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",28
+T038,P07,Structural steel,11,Small,3,0,3,24,1733,2700,1733,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",50
+T039,P07,Lighting,7,Small,3,0,3,24,2600,5967,4267,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",23
+T040,P18,Roofing membrane,13,Large,3,0,2,24,11500,4500,4033,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",103
+T041,P10,Roofing membrane,11,Small,3,0,3,24,2567,2133,1967,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",53
+T042,P16,Lighting,1,Small,3,0,3,24,1767,3033,2400,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",118
+T043,P05,Concrete & masonry,7,Medium,3,0,3,24,9067,20800,14967,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",31
+T044,P17,Roofing membrane,14,Medium,3,0,3,24,8833,5833,7333,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",97
+T045,P13,HVAC rooftop units,14,Small,3,0,2,24,5167,6633,5900,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",91
+T046,P06,Lighting,11,Large,3,0,3,24,7600,5233,4033,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",66
+T047,P18,Roofing membrane,12,Large,3,0,3,24,14233,23200,18700,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",83
+T048,P05,Electrical switchgear,12,Medium,3,0,3,24,14700,15733,15200,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",76
+T049,P12,Structural steel,6,Large,3,0,3,24,2467,13333,7867,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",46
+T050,P17,Electrical switchgear,9,Medium,3,0,3,24,15867,19600,17667,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",19
+T051,P20,Concrete & masonry,3,Medium,3,0,3,24,6067,8300,7167,Expedite,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",90
+T052,P17,HVAC rooftop units,11,Medium,3,0,3,24,10333,5967,8167,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",50
+T053,P11,Electrical switchgear,9,Medium,3,0,3,24,15933,19700,17700,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",19
+T054,P07,Electrical switchgear,12,Small,3,0,2,24,8933,7867,8400,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",72
+T055,P11,Lighting,6,Medium,3,0,3,24,5167,6400,5767,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",41
+T056,P11,Roofing membrane,3,Medium,3,0,3,24,5467,7467,6500,Expedite,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",97
+T057,P06,Concrete & masonry,13,Large,3,0,3,24,22267,18167,20200,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",92
+T058,P07,Electrical switchgear,3,Small,3,0,3,24,3967,4267,4100,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",93
+T059,P14,Roofing membrane,2,Medium,3,0,3,24,5233,7267,6233,Expedite,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",109
+T060,P04,HVAC rooftop units,11,Small,3,0,3,24,3667,6600,5167,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",46
+T061,P16,Structural steel,12,Small,3,0,3,24,1800,2467,2133,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",73
+T062,P04,Lighting,11,Small,3,0,3,24,3167,533,1800,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",53
+T063,P16,HVAC rooftop units,10,Small,3,0,2,24,6467,6033,6133,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",39
+T064,P04,Concrete & masonry,4,Small,3,0,2,24,3500,5300,4400,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",60
+T065,P14,Roofing membrane,13,Medium,3,0,2,24,11200,13900,12533,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",85
+T066,P02,Concrete & masonry,6,Medium,3,0,3,24,10067,11400,10767,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",37
+T067,P09,Concrete & masonry,3,Large,3,0,3,24,9033,9033,9033,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",95
+T068,P08,Concrete & masonry,11,Medium,3,0,3,24,9967,19500,14733,Switch,Switch,Accept,1,1,0,4 Nothing in common,"different material, different job size, very different duration",55
+T069,P05,Roofing membrane,6,Medium,3,0,3,24,8033,9233,8633,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",40
+T070,P03,Roofing membrane,1,Large,3,0,3,24,7900,13167,10400,Accept,Expedite,Expedite,0,0,0,4 Nothing in common,"different material, different job size, very different duration",127
+T071,P20,HVAC rooftop units,2,Medium,3,0,3,24,5800,9933,7867,Accept,Accept,Expedite,1,1,0,4 Nothing in common,"different material, different job size, very different duration",105
+T072,P13,HVAC rooftop units,5,Small,3,0,3,24,4333,4100,4200,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",57
+T073,P05,Roofing membrane,6,Medium,3,0,3,24,8167,9367,8767,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",40
+T074,P05,Lighting,7,Medium,3,0,3,24,4900,16633,10800,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",30
+T075,P13,Electrical switchgear,3,Small,3,0,3,24,5967,5933,5900,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",93
+T076,P04,Electrical switchgear,5,Small,3,0,2,24,6767,9667,8200,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",49
+T077,P12,Concrete & masonry,6,Large,3,0,3,24,12800,3933,8367,Switch,Expedite,Expedite,0,0,0,4 Nothing in common,"different material, different job size, very different duration",47
+T078,P05,Structural steel,2,Medium,3,0,2,24,1667,4167,2933,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",99
+T079,P19,Lighting,14,Small,3,0,3,24,2600,5733,4167,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",104
+T080,P19,Lighting,4,Small,3,0,2,24,1133,2733,1833,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",68
+T081,P10,Lighting,1,Small,3,0,3,24,2133,3400,2767,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",118
+T082,P07,Electrical switchgear,5,Small,3,0,2,24,6633,9533,8067,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",49
+T083,P03,Roofing membrane,4,Large,3,0,2,24,11567,17533,14567,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",78
+T084,P06,Roofing membrane,2,Large,3,0,2,24,8600,5433,7000,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",115
+T085,P18,Lighting,5,Large,3,0,3,24,5633,6467,6033,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",58
+T086,P11,Structural steel,3,Medium,3,0,3,24,733,1333,433,Accept,Accept,Expedite,1,1,0,4 Nothing in common,"different material, different job size, very different duration",87
+T087,P17,Electrical switchgear,13,Medium,3,0,2,24,17600,15233,16433,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",91
+T088,P07,Concrete & masonry,14,Small,3,0,2,24,5033,8833,6933,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",91
+T089,P07,Structural steel,4,Small,3,0,3,24,600,500,533,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",66
+T090,P13,Lighting,1,Small,3,0,3,24,1700,2933,2300,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",118
+T091,P05,Concrete & masonry,5,Medium,3,0,2,24,7400,6400,6867,Switch,Accept,Expedite,1,0,0,4 Nothing in common,"different material, different job size, very different duration",50
+T092,P06,Lighting,13,Large,3,0,2,24,16433,8400,8367,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",109
+T093,P19,Electrical switchgear,10,Small,3,0,2,24,11000,14067,12467,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",40
+T094,P20,Roofing membrane,11,Medium,3,0,3,24,8433,17567,13000,Switch,Switch,Accept,1,1,0,4 Nothing in common,"different material, different job size, very different duration",52
+T095,P08,Structural steel,5,Medium,3,0,3,24,1500,5600,2533,Accept,Accept,Expedite,1,1,0,4 Nothing in common,"different material, different job size, very different duration",46
+T096,P19,Lighting,13,Small,3,0,2,24,3167,4833,2700,Switch,Accept,Switch,1,0,1,4 Nothing in common,"different material, different job size, very different duration",89
+T097,P20,Electrical switchgear,2,Medium,3,0,2,24,15067,12633,13833,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",110
+T098,P05,Concrete & masonry,7,Medium,3,0,3,24,7767,19500,13667,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",31
+T099,P19,HVAC rooftop units,15,Small,3,0,3,24,5800,5700,5733,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",104
+T100,P04,Structural steel,12,Small,3,0,3,24,2067,4900,3467,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",73
+T101,P10,Structural steel,10,Small,3,0,2,24,2000,1967,1933,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",41
+T102,P02,HVAC rooftop units,2,Medium,3,0,3,24,2867,7367,5067,Accept,Accept,Expedite,1,1,0,4 Nothing in common,"different material, different job size, very different duration",105
+T103,P02,Concrete & masonry,6,Medium,3,0,3,24,9300,10833,10000,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",37
+T104,P03,Electrical switchgear,2,Large,3,0,3,24,14733,19700,17233,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",112
+T105,P04,Structural steel,7,Small,3,0,3,24,1633,1067,1367,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",25
+T106,P16,Electrical switchgear,13,Small,3,0,2,24,9333,14167,11767,Accept,Accept,Switch,1,1,0,4 Nothing in common,"different material, different job size, very different duration",84
+T107,P12,Electrical switchgear,1,Large,3,0,3,24,13367,17067,15233,Accept,Expedite,Expedite,0,0,0,4 Nothing in common,"different material, different job size, very different duration",126
+T108,P02,Concrete & masonry,5,Medium,3,0,2,24,8967,7967,8433,Expedite,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",50
+T109,P07,Structural steel,1,Small,3,0,3,24,967,2800,1900,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",111
+T110,P08,Structural steel,12,Medium,3,0,3,24,3300,10300,6833,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",69
+T111,P13,HVAC rooftop units,12,Small,3,0,3,24,4633,1800,2233,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",65
+T112,P08,Roofing membrane,5,Medium,3,0,2,24,7133,1200,4133,Expedite,Accept,Expedite,1,0,1,4 Nothing in common,"different material, different job size, very different duration",56
+T113,P02,Electrical switchgear,8,Medium,3,0,3,24,11000,13567,12267,Accept,Accept,Switch,1,1,0,4 Nothing in common,"different material, different job size, very different duration",14
+T114,P15,Lighting,10,Large,3,0,2,24,7100,11567,9333,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",47
+T115,P06,Concrete & masonry,15,Large,3,0,3,24,20567,33033,26800,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",120
+T116,P11,Electrical switchgear,9,Medium,3,0,3,24,15800,19833,17833,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",19
+T117,P10,Structural steel,2,Small,3,0,2,24,633,100,333,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",95
+T118,P03,Lighting,13,Large,3,0,2,24,18233,7533,10067,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",109
+T119,P02,Structural steel,13,Medium,3,0,2,24,6033,6400,6067,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",78
+T120,P03,Concrete & masonry,2,Large,3,0,3,24,10300,5867,7867,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",111
+T121,P01,Concrete & masonry,12,Small,3,0,3,24,6967,12467,9733,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",66
+T122,P02,Roofing membrane,10,Medium,3,0,3,24,11567,18567,15067,Switch,Switch,Accept,1,1,0,4 Nothing in common,"different material, different job size, very different duration",42
+T123,P16,Lighting,12,Small,3,0,3,24,3067,4000,3400,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",76
+T124,P04,Structural steel,2,Small,3,0,2,24,1333,733,1033,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",95
+T125,P15,Concrete & masonry,3,Large,3,0,3,24,7133,8067,7600,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",95
+T126,P06,Roofing membrane,2,Large,3,0,2,24,8300,5133,6700,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",115
+T127,P13,Concrete & masonry,14,Small,3,0,2,24,5967,9800,7900,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",91
+T128,P14,Electrical switchgear,15,Medium,3,0,2,24,23167,28033,25533,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",120
+T129,P12,Structural steel,12,Large,3,0,3,24,4533,8800,4133,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",78
+T130,P17,Electrical switchgear,5,Medium,3,0,2,24,13667,19700,16700,Accept,Accept,Expedite,1,1,0,4 Nothing in common,"different material, different job size, very different duration",50
+T131,P01,Lighting,9,Small,3,0,3,24,3433,1667,2533,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",28
+T132,P15,Concrete & masonry,11,Large,3,0,3,24,12700,19000,15533,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",63
+T133,P05,Concrete & masonry,5,Medium,3,0,2,24,7567,6567,7033,Switch,Accept,Expedite,1,0,0,4 Nothing in common,"different material, different job size, very different duration",50
+T134,P11,Electrical switchgear,15,Medium,3,0,2,24,19333,25867,22533,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",120
+T135,P15,Structural steel,3,Large,3,0,3,24,6367,7767,7100,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",85
+T136,P04,Electrical switchgear,12,Small,3,0,2,24,9667,8600,9167,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",72
+T137,P12,Roofing membrane,11,Large,3,0,3,24,14000,4433,8767,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",63
+T138,P05,Electrical switchgear,10,Medium,3,0,3,24,15833,11733,13800,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",39
+T139,P12,Lighting,3,Large,3,0,3,24,5267,7367,5967,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",95
+T140,P01,Lighting,4,Small,3,0,2,24,3300,5100,4200,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",68
+T141,P16,HVAC rooftop units,12,Small,3,0,3,24,5567,2300,3433,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",65
+T142,P08,Electrical switchgear,1,Medium,3,0,2,24,7500,10367,8867,Accept,Accept,Expedite,1,1,0,4 Nothing in common,"different material, different job size, very different duration",124
+T143,P19,Lighting,14,Small,3,0,3,24,1933,5067,3500,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",104
+T144,P16,Electrical switchgear,14,Small,3,0,3,24,9333,10433,9900,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",101
+T145,P04,Lighting,11,Small,3,0,3,24,2567,1533,1533,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",53
+T146,P04,Lighting,5,Small,3,0,3,24,2133,2367,2233,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",49
+T147,P11,Electrical switchgear,9,Medium,3,0,3,24,11900,15933,13933,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",19
+T148,P04,Concrete & masonry,3,Small,3,0,3,24,3700,3867,3800,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",83
+T149,P10,Electrical switchgear,15,Small,3,0,3,24,8700,10567,9667,Accept,Accept,Switch,1,1,0,4 Nothing in common,"different material, different job size, very different duration",115
+T150,P11,Electrical switchgear,12,Medium,3,0,3,24,19567,20467,20000,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",76
+T151,P05,Concrete & masonry,9,Medium,3,0,3,24,10467,11467,10967,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",19
+T152,P12,Concrete & masonry,4,Large,3,0,2,24,11567,16533,14067,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",74
+T153,P09,Electrical switchgear,14,Large,3,0,3,24,36600,41267,38933,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",119
+T154,P19,Lighting,2,Small,3,0,3,24,1533,467,1000,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",104
+T155,P03,Electrical switchgear,5,Large,3,0,2,24,19900,29233,24600,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",57
+T156,P16,Electrical switchgear,13,Small,3,0,2,24,11233,16067,13667,Accept,Accept,Switch,1,1,0,4 Nothing in common,"different material, different job size, very different duration",84
+T157,P18,Concrete & masonry,7,Large,3,0,3,24,10767,22467,16300,Switch,Expedite,Expedite,0,0,0,4 Nothing in common,"different material, different job size, very different duration",34
+T158,P07,HVAC rooftop units,6,Small,3,0,3,24,2600,5967,4267,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",44
+T159,P17,Roofing membrane,5,Medium,3,0,2,24,6067,1967,3500,Expedite,Accept,Expedite,1,0,1,4 Nothing in common,"different material, different job size, very different duration",56
+T160,P18,Structural steel,12,Large,3,0,3,24,15667,10233,11267,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",78
+T161,P04,Lighting,15,Small,3,0,3,24,4200,4567,4400,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",118
+T162,P01,Concrete & masonry,12,Small,3,0,3,24,6133,11633,8900,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",66
+T163,P12,Structural steel,3,Large,3,0,3,24,1467,2933,2133,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",85
+T164,P07,HVAC rooftop units,13,Small,3,0,2,24,3467,8233,5867,Accept,Accept,Switch,1,1,0,4 Nothing in common,"different material, different job size, very different duration",77
+T165,P05,HVAC rooftop units,2,Medium,3,0,3,24,4100,8567,6333,Accept,Accept,Expedite,1,1,0,4 Nothing in common,"different material, different job size, very different duration",105
+T166,P16,Lighting,5,Small,3,0,3,24,1933,1833,1900,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",49
+T167,P16,Structural steel,10,Small,3,0,2,24,933,900,867,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",41
+T168,P12,Electrical switchgear,5,Large,3,0,2,24,27900,36800,32333,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",57
+T169,P19,HVAC rooftop units,11,Small,3,0,3,24,5167,7500,6333,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",46
+T170,P04,HVAC rooftop units,3,Small,3,0,3,24,2733,3800,3267,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",95
+T171,P16,Roofing membrane,3,Small,3,0,3,24,2100,2200,2167,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",89
+T172,P11,Roofing membrane,5,Medium,3,0,2,24,6367,400,3267,Expedite,Accept,Expedite,1,0,1,4 Nothing in common,"different material, different job size, very different duration",56
+T173,P02,Concrete & masonry,3,Medium,3,0,3,24,7700,10300,9000,Expedite,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",90
+T174,P06,Structural steel,14,Large,3,0,3,24,11000,18233,14633,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",109
+T175,P09,Electrical switchgear,2,Large,3,0,3,24,17733,22800,20267,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",112
+T176,P20,HVAC rooftop units,9,Medium,3,0,3,24,13867,16967,15400,Accept,Switch,Switch,0,0,0,4 Nothing in common,"different material, different job size, very different duration",18
+T177,P04,Structural steel,3,Small,3,0,3,24,700,200,433,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",84
+T178,P15,Structural steel,11,Large,3,0,3,24,10467,20333,15367,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",58
+T179,P04,Roofing membrane,3,Small,3,0,3,24,3233,3400,3333,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",89
+T180,P02,Structural steel,2,Medium,3,0,2,24,867,3433,2167,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",99
+T181,P04,Roofing membrane,3,Small,3,0,3,24,3100,3267,3200,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",89
+T182,P16,Structural steel,5,Small,3,0,3,24,1133,1033,1100,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",50
+T183,P13,HVAC rooftop units,14,Small,3,0,2,24,7067,8533,7800,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",91
+T184,P15,Concrete & masonry,4,Large,3,0,2,24,9133,13700,11400,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",74
+T185,P07,HVAC rooftop units,1,Small,3,0,3,24,2567,1933,2267,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",121
+T186,P20,Electrical switchgear,2,Medium,3,0,2,24,14533,12100,13300,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",110
+T187,P06,Lighting,5,Large,3,0,3,24,9367,10067,9700,Expedite,Expedite,Expedite,0,1,1,4 Nothing in common,"different material, different job size, very different duration",58
+T188,P19,Concrete & masonry,12,Small,3,0,3,24,3300,8533,5900,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",66
+T189,P07,Roofing membrane,2,Small,3,0,2,24,2900,1667,2300,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",102
+T190,P05,Structural steel,5,Medium,3,0,3,24,900,5200,2533,Expedite,Accept,Expedite,1,0,1,4 Nothing in common,"different material, different job size, very different duration",46
+T191,P11,Concrete & masonry,15,Medium,3,0,2,24,12367,7633,10033,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",109
+T192,P04,Structural steel,13,Small,3,0,2,24,1300,3633,1233,Accept,Accept,Switch,1,1,0,4 Nothing in common,"different material, different job size, very different duration",83
+T193,P20,Roofing membrane,12,Medium,3,0,3,24,8100,14367,11267,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",73
+T194,P19,Lighting,6,Small,3,0,3,24,1533,2700,1033,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",39
+T195,P19,Concrete & masonry,13,Small,3,0,3,24,4333,3833,4100,Switch,Accept,Accept,0,0,0,4 Nothing in common,"different material, different job size, very different duration",74
+T196,P10,Roofing membrane,2,Small,3,0,2,24,2833,1600,2200,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",102
+T197,P15,Structural steel,13,Large,3,0,2,24,6300,20567,13400,Switch,Switch,Switch,0,1,1,4 Nothing in common,"different material, different job size, very different duration",95
+T198,P11,Roofing membrane,4,Medium,3,0,3,24,6933,3033,4967,Expedite,Accept,Expedite,1,0,1,4 Nothing in common,"different material, different job size, very different duration",73
+T199,P08,Structural steel,2,Medium,3,0,2,24,1400,3967,2700,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",99
+T200,P16,Lighting,9,Small,3,0,3,24,1867,800,1033,Accept,Accept,Accept,0,1,1,4 Nothing in common,"different material, different job size, very different duration",28

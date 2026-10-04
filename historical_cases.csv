@@ -1,0 +1,401 @@
+case_id,project_id,material,delay_days,project_size,accept_cost,switch_cost,expedite_cost,optimal_action,chosen_action,actual_cost
+001,P04,Concrete & masonry,12,Small,10700,6000,16800,Switch,Switch,6000
+002,P18,Concrete & masonry,10,Large,106200,23600,41700,Switch,Switch,23600
+003,P01,HVAC rooftop units,4,Small,3800,21900,7000,Accept,Accept,3800
+004,P09,Concrete & masonry,13,Large,135700,25000,57000,Switch,Switch,25000
+005,P11,Concrete & masonry,2,Medium,6900,13100,5800,Expedite,Expedite,5800
+006,P02,Electrical switchgear,8,Medium,25700,64900,35700,Accept,Accept,25700
+007,P20,Lighting,10,Medium,36100,19300,36100,Switch,Accept,36100
+008,P08,Concrete & masonry,7,Medium,22800,13400,17300,Switch,Switch,13400
+009,P07,Electrical switchgear,5,Small,5000,34500,11800,Accept,Accept,5000
+010,P18,Electrical switchgear,4,Large,40300,113100,42600,Accept,Accept,40300
+011,P18,Roofing membrane,11,Large,114500,31100,53400,Switch,Expedite,53400
+012,P13,Lighting,2,Small,1900,12400,3100,Accept,Accept,1900
+013,P16,Structural steel,15,Small,17200,15700,29200,Switch,Switch,15700
+014,P18,HVAC rooftop units,5,Large,56600,83200,45100,Expedite,Expedite,45100
+015,P05,HVAC rooftop units,8,Medium,24200,36200,29200,Accept,Accept,24200
+016,P14,HVAC rooftop units,2,Medium,7100,42700,8500,Accept,Accept,7100
+017,P18,Concrete & masonry,11,Large,123900,27200,56900,Switch,Switch,27200
+018,P11,Concrete & masonry,5,Medium,17400,13400,14900,Switch,Expedite,14900
+019,P17,Roofing membrane,9,Medium,36400,19100,27500,Switch,Switch,19100
+020,P20,Roofing membrane,3,Medium,11300,16300,10700,Expedite,Accept,11300
+021,P20,Lighting,8,Medium,27800,23800,30000,Switch,Expedite,30000
+022,P08,Concrete & masonry,4,Medium,14700,14700,10100,Expedite,Expedite,10100
+023,P03,HVAC rooftop units,13,Large,110800,70600,97700,Switch,Switch,70600
+024,P17,HVAC rooftop units,7,Medium,28600,52400,36000,Accept,Accept,28600
+025,P10,Structural steel,11,Small,11300,14500,21700,Accept,Accept,11300
+026,P08,Concrete & masonry,6,Medium,18500,13000,15600,Switch,Switch,13000
+027,P02,Roofing membrane,2,Medium,6900,16200,5600,Expedite,Expedite,5600
+028,P16,Roofing membrane,9,Small,8800,10100,14500,Accept,Accept,8800
+029,P16,Structural steel,4,Small,3900,16100,7600,Accept,Accept,3900
+030,P02,Electrical switchgear,11,Medium,38500,54100,52000,Accept,Accept,38500
+031,P04,Roofing membrane,4,Small,3500,7800,5400,Accept,Accept,3500
+032,P08,Concrete & masonry,8,Medium,29000,14400,18600,Switch,Switch,14400
+033,P18,Concrete & masonry,2,Large,23400,28400,15100,Expedite,Expedite,15100
+034,P07,Structural steel,15,Small,13200,13600,31500,Accept,Accept,13200
+035,P15,Lighting,7,Large,76200,36500,46700,Switch,Switch,36500
+036,P16,Roofing membrane,4,Small,4100,10200,6400,Accept,Accept,4100
+037,P11,Concrete & masonry,1,Medium,3600,13600,3600,Accept,Accept,3600
+038,P17,Concrete & masonry,14,Medium,49000,14500,40700,Switch,Switch,14500
+039,P04,HVAC rooftop units,4,Small,3800,18900,6600,Accept,Accept,3800
+040,P19,HVAC rooftop units,6,Small,7100,23400,15800,Accept,Accept,7100
+041,P13,Roofing membrane,11,Small,11600,8800,19400,Switch,Accept,11600
+042,P15,HVAC rooftop units,10,Large,115100,77100,79800,Switch,Switch,77100
+043,P12,Concrete & masonry,15,Large,144600,22900,64700,Switch,Switch,22900
+044,P10,HVAC rooftop units,13,Small,13300,20000,32500,Accept,Accept,13300
+045,P04,Roofing membrane,5,Small,4300,7100,7100,Accept,Accept,4300
+046,P20,Roofing membrane,12,Medium,44700,18400,41100,Switch,Switch,18400
+047,P09,Concrete & masonry,2,Large,20200,25200,13100,Expedite,Expedite,13100
+048,P05,Electrical switchgear,5,Medium,15400,58600,25700,Accept,Accept,15400
+049,P04,Concrete & masonry,15,Small,14500,6000,17600,Switch,Switch,6000
+050,P18,Roofing membrane,7,Large,69900,28000,38100,Switch,Accept,69900
+051,P12,Roofing membrane,11,Large,106200,25500,57700,Switch,Expedite,57700
+052,P20,Electrical switchgear,3,Medium,12500,63200,14800,Accept,Switch,63200
+053,P14,Concrete & masonry,3,Medium,11400,13600,9700,Expedite,Accept,11400
+054,P09,Roofing membrane,13,Large,133100,27100,56600,Switch,Switch,27100
+055,P07,Structural steel,6,Small,5600,15300,9600,Accept,Accept,5600
+056,P07,Structural steel,6,Small,5500,12600,10900,Accept,Accept,5500
+057,P17,Structural steel,11,Medium,45100,31200,47700,Switch,Switch,31200
+058,P09,Roofing membrane,10,Large,107500,27000,48400,Switch,Switch,27000
+059,P11,Structural steel,10,Medium,38600,26700,40400,Switch,Switch,26700
+060,P02,Electrical switchgear,7,Medium,20100,62800,32600,Accept,Accept,20100
+061,P07,Lighting,7,Small,6200,10800,10400,Accept,Accept,6200
+062,P04,Electrical switchgear,15,Small,13400,29900,37200,Accept,Accept,13400
+063,P10,HVAC rooftop units,3,Small,2800,23700,6500,Accept,Accept,2800
+064,P06,HVAC rooftop units,10,Large,91500,72600,65800,Expedite,Expedite,65800
+065,P14,HVAC rooftop units,10,Medium,37400,45400,45700,Accept,Accept,37400
+066,P16,Electrical switchgear,3,Small,3300,33000,6500,Accept,Accept,3300
+067,P03,Roofing membrane,11,Large,97500,26700,46400,Switch,Switch,26700
+068,P16,HVAC rooftop units,14,Small,15600,24200,38700,Accept,Accept,15600
+069,P13,Structural steel,7,Small,6800,15700,11500,Accept,Switch,15700
+070,P14,Roofing membrane,3,Medium,11600,17800,9500,Expedite,Expedite,9500
+071,P04,Structural steel,3,Small,3000,14500,5600,Accept,Accept,3000
+072,P15,HVAC rooftop units,14,Large,153000,81700,121600,Switch,Switch,81700
+073,P06,Electrical switchgear,14,Large,132700,99800,121000,Switch,Switch,99800
+074,P17,Structural steel,11,Medium,39000,29500,44200,Switch,Switch,29500
+075,P11,Lighting,15,Medium,53200,18200,45400,Switch,Switch,18200
+076,P07,Concrete & masonry,7,Small,6600,6800,9400,Accept,Accept,6600
+077,P14,Structural steel,15,Medium,57400,32700,50200,Switch,Expedite,50200
+078,P16,Concrete & masonry,6,Small,6100,7200,9900,Accept,Switch,7200
+079,P16,Roofing membrane,5,Small,5200,7900,7700,Accept,Accept,5200
+080,P13,Electrical switchgear,3,Small,3300,37900,6800,Accept,Accept,3300
+081,P13,HVAC rooftop units,10,Small,10600,21100,23600,Accept,Switch,21100
+082,P02,Lighting,7,Medium,21500,17800,19700,Switch,Expedite,19700
+083,P14,Lighting,14,Medium,46600,17800,46100,Switch,Expedite,46100
+084,P08,Electrical switchgear,2,Medium,7200,58100,10400,Accept,Switch,58100
+085,P01,HVAC rooftop units,3,Small,2600,20400,5500,Accept,Expedite,5500
+086,P09,Lighting,3,Large,30100,35700,19200,Expedite,Accept,30100
+087,P10,Concrete & masonry,10,Small,9000,6500,15000,Switch,Expedite,15000
+088,P07,Concrete & masonry,10,Small,10000,7000,12400,Switch,Accept,10000
+089,P19,Concrete & masonry,6,Small,6600,7900,8200,Accept,Accept,6600
+090,P01,Structural steel,14,Small,12600,13100,23400,Accept,Expedite,23400
+091,P05,Structural steel,3,Medium,10400,29800,9800,Expedite,Switch,29800
+092,P15,Structural steel,14,Large,153400,51000,97600,Switch,Accept,153400
+093,P09,Structural steel,4,Large,41300,50700,26100,Expedite,Expedite,26100
+094,P16,Lighting,3,Small,3200,11000,4700,Accept,Accept,3200
+095,P20,Electrical switchgear,15,Medium,55200,61600,95100,Accept,Accept,55200
+096,P14,Structural steel,9,Medium,34400,31000,35200,Switch,Switch,31000
+097,P01,Concrete & masonry,5,Small,4200,6600,5900,Accept,Accept,4200
+098,P16,HVAC rooftop units,9,Small,9200,27400,21800,Accept,Accept,9200
+099,P15,Lighting,5,Large,49700,31200,26600,Expedite,Expedite,26600
+100,P18,Electrical switchgear,3,Large,30400,111300,29400,Expedite,Expedite,29400
+101,P17,HVAC rooftop units,5,Medium,20500,51400,22700,Accept,Accept,20500
+102,P10,Concrete & masonry,12,Small,12000,6600,19100,Switch,Switch,6600
+103,P05,Electrical switchgear,14,Medium,48500,55300,62600,Accept,Accept,48500
+104,P16,Structural steel,6,Small,5900,13700,12400,Accept,Accept,5900
+105,P03,Structural steel,8,Large,67400,45400,41200,Expedite,Expedite,41200
+106,P19,Lighting,2,Small,2400,10600,3400,Accept,Accept,2400
+107,P20,Roofing membrane,13,Medium,50300,17600,40600,Switch,Expedite,40600
+108,P10,HVAC rooftop units,10,Small,9100,25400,20500,Accept,Switch,25400
+109,P09,Electrical switchgear,2,Large,18300,80500,17000,Expedite,Expedite,17000
+110,P15,Electrical switchgear,10,Large,104100,104600,95200,Expedite,Expedite,95200
+111,P15,Concrete & masonry,11,Large,109000,23500,55700,Switch,Switch,23500
+112,P07,Structural steel,2,Small,1900,14800,3300,Accept,Switch,14800
+113,P02,Roofing membrane,13,Medium,39900,15500,34400,Switch,Switch,15500
+114,P04,Structural steel,12,Small,10700,13400,19700,Accept,Accept,10700
+115,P15,Concrete & masonry,10,Large,95100,23900,40700,Switch,Switch,23900
+116,P03,Roofing membrane,11,Large,108100,26500,56100,Switch,Expedite,56100
+117,P19,Concrete & masonry,13,Small,14900,7600,21100,Switch,Accept,14900
+118,P19,Structural steel,11,Small,12700,18200,23500,Accept,Accept,12700
+119,P11,Electrical switchgear,2,Medium,7500,55200,10700,Accept,Accept,7500
+120,P13,HVAC rooftop units,1,Small,1000,20400,1000,Accept,Expedite,1000
+121,P17,Concrete & masonry,11,Medium,44200,14600,28800,Switch,Switch,14600
+122,P20,Structural steel,11,Medium,41900,27900,41100,Switch,Switch,27900
+123,P10,Structural steel,15,Small,15500,13400,32800,Switch,Switch,13400
+124,P08,Electrical switchgear,3,Medium,9800,51400,12700,Accept,Accept,9800
+125,P04,Structural steel,2,Small,1900,12600,3300,Accept,Accept,1900
+126,P09,Structural steel,14,Large,137300,48800,83800,Switch,Switch,48800
+127,P07,HVAC rooftop units,9,Small,9100,20200,17600,Accept,Expedite,17600
+128,P11,HVAC rooftop units,5,Medium,18700,42500,21200,Accept,Accept,18700
+129,P16,Roofing membrane,8,Small,8500,8700,13600,Accept,Accept,8500
+130,P15,Lighting,14,Large,137500,35200,81100,Switch,Switch,35200
+131,P14,Concrete & masonry,6,Medium,22800,14800,18000,Switch,Switch,14800
+132,P05,Structural steel,1,Medium,3100,26000,3100,Accept,Accept,3100
+133,P15,Concrete & masonry,9,Large,102000,23900,37500,Switch,Accept,102000
+134,P03,Structural steel,13,Large,131000,46300,79800,Switch,Switch,46300
+135,P11,Electrical switchgear,14,Medium,49600,71300,75500,Accept,Expedite,75500
+136,P18,Concrete & masonry,10,Large,98600,25600,48100,Switch,Accept,98600
+137,P14,Concrete & masonry,13,Medium,48400,15300,35500,Switch,Switch,15300
+138,P01,Concrete & masonry,6,Small,5700,6000,7400,Accept,Accept,5700
+139,P17,Structural steel,10,Medium,38700,28300,35800,Switch,Switch,28300
+140,P13,HVAC rooftop units,11,Small,10700,26000,22500,Accept,Accept,10700
+141,P09,Structural steel,5,Large,50800,53200,30000,Expedite,Expedite,30000
+142,P18,Roofing membrane,2,Large,21300,28900,15000,Expedite,Expedite,15000
+143,P14,Electrical switchgear,5,Medium,18000,63200,30400,Accept,Switch,63200
+144,P08,Structural steel,10,Medium,33100,26100,36600,Switch,Switch,26100
+145,P13,Lighting,1,Small,1000,11700,1000,Accept,Accept,1000
+146,P20,Electrical switchgear,8,Medium,32900,78100,47400,Accept,Accept,32900
+147,P12,Roofing membrane,11,Large,104800,26200,57200,Switch,Accept,104800
+148,P04,Electrical switchgear,11,Small,9300,33800,23000,Accept,Accept,9300
+149,P05,Concrete & masonry,15,Medium,47400,13300,34000,Switch,Switch,13300
+150,P18,Lighting,9,Large,97100,33800,51400,Switch,Expedite,51400
+151,P10,Electrical switchgear,14,Small,13500,30300,41100,Accept,Accept,13500
+152,P08,Electrical switchgear,12,Medium,42300,61300,66600,Accept,Accept,42300
+153,P03,Structural steel,1,Large,8800,33200,8800,Accept,Accept,8800
+154,P09,HVAC rooftop units,7,Large,73300,83400,50300,Expedite,Expedite,50300
+155,P01,HVAC rooftop units,15,Small,14700,20000,31900,Accept,Accept,14700
+156,P15,Electrical switchgear,5,Large,53900,108000,46200,Expedite,Expedite,46200
+157,P16,Concrete & masonry,2,Small,2000,7400,2500,Accept,Accept,2000
+158,P18,Structural steel,10,Large,113100,51500,65400,Switch,Switch,51500
+159,P16,HVAC rooftop units,7,Small,8100,23200,18500,Accept,Accept,8100
+160,P15,Roofing membrane,14,Large,142600,31400,67100,Switch,Expedite,67100
+161,P02,Structural steel,5,Medium,15000,23200,17600,Accept,Accept,15000
+162,P07,Electrical switchgear,11,Small,10800,28700,29400,Accept,Accept,10800
+163,P05,HVAC rooftop units,4,Medium,12100,42900,14300,Accept,Accept,12100
+164,P08,Lighting,13,Medium,41200,21000,34900,Switch,Accept,41200
+165,P05,HVAC rooftop units,5,Medium,17500,38200,22100,Accept,Accept,17500
+166,P12,Roofing membrane,10,Large,98000,26100,46900,Switch,Switch,26100
+167,P17,Concrete & masonry,12,Medium,40900,13900,32400,Switch,Switch,13900
+168,P15,HVAC rooftop units,4,Large,45600,76400,38200,Expedite,Switch,76400
+169,P15,Electrical switchgear,1,Large,9600,82400,9600,Accept,Accept,9600
+170,P16,Electrical switchgear,15,Small,15700,39700,41400,Accept,Accept,15700
+171,P05,Lighting,10,Medium,33800,19000,29100,Switch,Expedite,29100
+172,P15,HVAC rooftop units,10,Large,103200,84100,74800,Expedite,Expedite,74800
+173,P18,Electrical switchgear,14,Large,142500,115100,133200,Switch,Switch,115100
+174,P15,Structural steel,7,Large,76700,51400,47000,Expedite,Expedite,47000
+175,P05,Electrical switchgear,15,Medium,49200,54400,67900,Accept,Accept,49200
+176,P12,Roofing membrane,9,Large,83400,29800,46600,Switch,Switch,29800
+177,P14,Lighting,14,Medium,52500,22000,50900,Switch,Switch,22000
+178,P10,HVAC rooftop units,5,Small,4800,23300,9800,Accept,Accept,4800
+179,P08,Concrete & masonry,6,Medium,21900,13000,16800,Switch,Switch,13000
+180,P14,HVAC rooftop units,13,Medium,50200,47300,62500,Switch,Switch,47300
+181,P09,Concrete & masonry,3,Large,28200,24300,17200,Expedite,Expedite,17200
+182,P06,Roofing membrane,10,Large,98300,24500,51300,Switch,Accept,98300
+183,P17,Roofing membrane,7,Medium,25700,16600,20700,Switch,Switch,16600
+184,P19,HVAC rooftop units,2,Small,2300,21900,4600,Accept,Accept,2300
+185,P03,Lighting,8,Large,76100,30500,42800,Switch,Switch,30500
+186,P17,Concrete & masonry,6,Medium,22100,13700,17800,Switch,Switch,13700
+187,P10,Concrete & masonry,4,Small,3900,7100,4800,Accept,Accept,3900
+188,P07,Roofing membrane,13,Small,11900,7900,16800,Switch,Switch,7900
+189,P06,Roofing membrane,7,Large,67100,25100,32100,Switch,Switch,25100
+190,P12,Concrete & masonry,7,Large,76300,23200,29200,Switch,Expedite,29200
+191,P19,Structural steel,10,Small,10700,16700,19900,Accept,Accept,10700
+192,P11,Roofing membrane,13,Medium,49800,16400,40000,Switch,Switch,16400
+193,P14,Concrete & masonry,4,Medium,14300,13600,10400,Expedite,Switch,13600
+194,P08,Lighting,13,Medium,41400,19100,36000,Switch,Switch,19100
+195,P12,Lighting,12,Large,133100,35300,62000,Switch,Switch,35300
+196,P09,Roofing membrane,3,Large,30100,28900,18000,Expedite,Expedite,18000
+197,P16,Structural steel,13,Small,13900,16000,27500,Accept,Expedite,27500
+198,P11,Roofing membrane,8,Medium,25700,15700,21500,Switch,Switch,15700
+199,P02,Lighting,9,Medium,26300,17600,23000,Switch,Switch,17600
+200,P10,Concrete & masonry,11,Small,11700,7700,16000,Switch,Switch,7700
+201,P15,HVAC rooftop units,9,Large,102800,86600,70900,Expedite,Accept,102800
+202,P11,HVAC rooftop units,8,Medium,28100,48700,34500,Accept,Expedite,34500
+203,P03,HVAC rooftop units,11,Large,94700,65500,77200,Switch,Switch,65500
+204,P17,HVAC rooftop units,3,Medium,10900,51000,13600,Accept,Switch,51000
+205,P11,Concrete & masonry,6,Medium,19400,13800,15000,Switch,Switch,13800
+206,P20,Roofing membrane,6,Medium,21200,18100,20600,Switch,Switch,18100
+207,P13,Roofing membrane,10,Small,10700,7900,16000,Switch,Switch,7900
+208,P11,Roofing membrane,11,Medium,40300,18100,36100,Switch,Accept,40300
+209,P14,HVAC rooftop units,6,Medium,19700,42400,29300,Accept,Accept,19700
+210,P16,Roofing membrane,4,Small,4700,8400,6100,Accept,Switch,8400
+211,P11,HVAC rooftop units,3,Medium,10800,40800,12400,Accept,Accept,10800
+212,P20,Roofing membrane,12,Medium,45600,17400,39700,Switch,Switch,17400
+213,P15,HVAC rooftop units,5,Large,55000,86000,41600,Expedite,Expedite,41600
+214,P16,Roofing membrane,6,Small,6600,9300,9700,Accept,Expedite,9700
+215,P17,HVAC rooftop units,7,Medium,28600,51200,36300,Accept,Accept,28600
+216,P09,Concrete & masonry,11,Large,107800,23000,54600,Switch,Switch,23000
+217,P17,Concrete & masonry,5,Medium,17100,13000,13900,Switch,Switch,13000
+218,P14,Concrete & masonry,15,Medium,51400,13600,39000,Switch,Switch,13600
+219,P02,Structural steel,9,Medium,28000,25000,26500,Switch,Switch,25000
+220,P11,Concrete & masonry,14,Medium,51400,13200,34300,Switch,Switch,13200
+221,P16,Electrical switchgear,14,Small,13700,37600,38400,Accept,Accept,13700
+222,P03,Concrete & masonry,5,Large,43400,20200,23300,Switch,Switch,20200
+223,P14,Concrete & masonry,13,Medium,45200,13200,31600,Switch,Switch,13200
+224,P20,Structural steel,2,Medium,7100,33400,7700,Accept,Accept,7100
+225,P17,HVAC rooftop units,4,Medium,15600,45100,16600,Accept,Accept,15600
+226,P19,Structural steel,3,Small,3400,14500,6500,Accept,Accept,3400
+227,P17,HVAC rooftop units,9,Medium,35600,47500,38400,Accept,Switch,47500
+228,P13,Lighting,5,Small,5400,10700,7800,Accept,Accept,5400
+229,P04,HVAC rooftop units,12,Small,11800,19500,24600,Accept,Accept,11800
+230,P06,Electrical switchgear,8,Large,83600,108100,73200,Expedite,Expedite,73200
+231,P15,Concrete & masonry,5,Large,49200,25800,26200,Switch,Switch,25800
+232,P10,HVAC rooftop units,7,Small,7600,23400,15500,Accept,Switch,23400
+233,P10,Lighting,14,Small,14700,11900,22700,Switch,Switch,11900
+234,P12,Structural steel,15,Large,149400,49700,100400,Switch,Switch,49700
+235,P06,Structural steel,12,Large,114300,51100,72500,Switch,Expedite,72500
+236,P03,Structural steel,10,Large,101200,45100,55400,Switch,Switch,45100
+237,P11,Electrical switchgear,5,Medium,16900,65300,25900,Accept,Accept,16900
+238,P12,Structural steel,1,Large,10600,44700,10600,Accept,Accept,10600
+239,P02,Concrete & masonry,11,Medium,36000,12000,28900,Switch,Switch,12000
+240,P01,Roofing membrane,14,Small,12900,8300,17300,Switch,Switch,8300
+241,P12,Lighting,7,Large,77500,31000,42100,Switch,Switch,31000
+242,P12,Lighting,8,Large,85600,34400,48400,Switch,Switch,34400
+243,P09,Roofing membrane,2,Large,17800,24700,12700,Expedite,Accept,17800
+244,P09,Lighting,12,Large,116800,35600,59900,Switch,Expedite,59900
+245,P07,Concrete & masonry,3,Small,3100,6700,4300,Accept,Accept,3100
+246,P03,Electrical switchgear,14,Large,141500,108100,131900,Switch,Switch,108100
+247,P10,Lighting,14,Small,13000,11300,24600,Switch,Switch,11300
+248,P12,HVAC rooftop units,4,Large,37600,71300,31000,Expedite,Accept,37600
+249,P12,HVAC rooftop units,10,Large,98900,81400,78500,Expedite,Expedite,78500
+250,P03,Concrete & masonry,5,Large,45100,22800,21800,Expedite,Expedite,21800
+251,P14,HVAC rooftop units,2,Medium,6700,39400,7700,Accept,Accept,6700
+252,P17,Lighting,3,Medium,12100,22900,11000,Expedite,Expedite,11000
+253,P05,Structural steel,9,Medium,32100,24600,28400,Switch,Switch,24600
+254,P06,Roofing membrane,6,Large,62200,25900,31300,Switch,Switch,25900
+255,P10,Concrete & masonry,5,Small,4700,7700,6500,Accept,Accept,4700
+256,P20,HVAC rooftop units,2,Medium,7700,40700,9900,Accept,Accept,7700
+257,P20,Electrical switchgear,15,Medium,59000,76400,89200,Accept,Switch,76400
+258,P03,Concrete & masonry,11,Large,106800,21700,45900,Switch,Switch,21700
+259,P20,Electrical switchgear,1,Medium,3800,60900,3800,Accept,Expedite,3800
+260,P08,Electrical switchgear,7,Medium,22900,55500,31800,Accept,Accept,22900
+261,P16,Structural steel,4,Small,4100,14100,8700,Accept,Accept,4100
+262,P12,Structural steel,3,Large,32100,51900,19800,Expedite,Expedite,19800
+263,P04,Lighting,8,Small,7100,8900,11600,Accept,Accept,7100
+264,P20,Structural steel,4,Medium,16800,34700,17300,Accept,Expedite,17300
+265,P07,Roofing membrane,8,Small,8500,8300,13500,Switch,Switch,8300
+266,P03,Structural steel,9,Large,82200,43600,51900,Switch,Switch,43600
+267,P10,Structural steel,10,Small,10700,15500,19300,Accept,Accept,10700
+268,P04,Structural steel,3,Small,3000,14800,5400,Accept,Accept,3000
+269,P13,Concrete & masonry,10,Small,10400,6900,14000,Switch,Switch,6900
+270,P15,HVAC rooftop units,5,Large,55800,84100,44300,Expedite,Expedite,44300
+271,P04,Structural steel,6,Small,5900,13300,11200,Accept,Switch,13300
+272,P20,HVAC rooftop units,7,Medium,27000,43200,31400,Accept,Accept,27000
+273,P16,HVAC rooftop units,8,Small,7900,26600,16600,Accept,Expedite,16600
+274,P06,Structural steel,10,Large,99900,46700,56800,Switch,Expedite,56800
+275,P19,Lighting,8,Small,9300,11400,15200,Accept,Expedite,15200
+276,P01,HVAC rooftop units,8,Small,6900,21400,17500,Accept,Accept,6900
+277,P08,Electrical switchgear,1,Medium,3500,47400,3500,Accept,Accept,3500
+278,P13,Roofing membrane,14,Small,14900,7800,25300,Switch,Switch,7800
+279,P01,Structural steel,6,Small,5300,13000,8900,Accept,Accept,5300
+280,P20,Structural steel,14,Medium,57700,33300,59000,Switch,Switch,33300
+281,P18,Lighting,11,Large,118200,34500,69900,Switch,Switch,34500
+282,P18,Lighting,9,Large,94300,37200,56300,Switch,Switch,37200
+283,P09,HVAC rooftop units,8,Large,73900,70100,61600,Expedite,Expedite,61600
+284,P10,Lighting,12,Small,11200,11300,19600,Accept,Accept,11200
+285,P09,Lighting,2,Large,20000,32800,14800,Expedite,Expedite,14800
+286,P12,Roofing membrane,5,Large,46100,29700,23000,Expedite,Switch,29700
+287,P16,Roofing membrane,4,Small,4500,8600,6500,Accept,Accept,4500
+288,P04,HVAC rooftop units,12,Small,11400,20000,26500,Accept,Accept,11400
+289,P08,Concrete & masonry,2,Medium,6700,13700,5500,Expedite,Accept,6700
+290,P18,Roofing membrane,7,Large,77800,32400,36000,Switch,Switch,32400
+291,P10,Lighting,5,Small,5100,12000,7600,Accept,Accept,5100
+292,P18,Electrical switchgear,12,Large,138600,111200,135200,Switch,Switch,111200
+293,P06,Concrete & masonry,14,Large,130700,22700,63900,Switch,Expedite,63900
+294,P02,Concrete & masonry,5,Medium,16200,11300,13700,Switch,Switch,11300
+295,P18,HVAC rooftop units,8,Large,93000,79700,71400,Expedite,Expedite,71400
+296,P04,Lighting,3,Small,2900,10500,4700,Accept,Accept,2900
+297,P11,Lighting,10,Medium,36400,18500,33300,Switch,Switch,18500
+298,P13,Structural steel,9,Small,8900,14700,15700,Accept,Expedite,15700
+299,P11,Roofing membrane,1,Medium,3300,15100,3300,Accept,Expedite,3300
+300,P19,Electrical switchgear,10,Small,9800,38100,30900,Accept,Accept,9800
+301,P04,Structural steel,5,Small,4300,14300,10000,Accept,Expedite,10000
+302,P04,Electrical switchgear,15,Small,15200,30900,36100,Accept,Expedite,36100
+303,P05,Structural steel,12,Medium,43400,26600,43500,Switch,Accept,43400
+304,P08,Electrical switchgear,13,Medium,45200,66800,65500,Accept,Accept,45200
+305,P12,Concrete & masonry,15,Large,154400,22600,67500,Switch,Switch,22600
+306,P19,HVAC rooftop units,3,Small,3000,27100,7200,Accept,Accept,3000
+307,P19,Structural steel,2,Small,2400,16100,3200,Accept,Accept,2400
+308,P14,Structural steel,10,Medium,33100,28500,39500,Switch,Switch,28500
+309,P13,Lighting,14,Small,12900,10100,21300,Switch,Switch,10100
+310,P03,HVAC rooftop units,1,Large,10000,47400,10000,Accept,Accept,10000
+311,P14,Roofing membrane,13,Medium,43700,17100,40500,Switch,Expedite,40500
+312,P13,Structural steel,14,Small,15600,14900,24800,Switch,Accept,15600
+313,P12,Concrete & masonry,3,Large,33500,24900,17500,Expedite,Accept,33500
+314,P01,Lighting,8,Small,7400,9900,12100,Accept,Switch,9900
+315,P15,Lighting,3,Large,30000,37100,19800,Expedite,Expedite,19800
+316,P14,HVAC rooftop units,13,Medium,51300,50400,57400,Switch,Switch,50400
+317,P20,Concrete & masonry,8,Medium,31400,15600,20600,Switch,Switch,15600
+318,P13,Structural steel,4,Small,4100,16200,8300,Accept,Accept,4100
+319,P10,Roofing membrane,14,Small,15100,8800,22400,Switch,Expedite,22400
+320,P08,Lighting,15,Medium,47500,19800,43100,Switch,Switch,19800
+321,P02,HVAC rooftop units,10,Medium,34300,44400,42300,Accept,Accept,34300
+322,P16,Concrete & masonry,6,Small,6900,7800,9800,Accept,Accept,6900
+323,P14,Structural steel,3,Medium,10500,27000,11100,Accept,Accept,10500
+324,P08,Lighting,14,Medium,49700,20900,48400,Switch,Switch,20900
+325,P14,HVAC rooftop units,9,Medium,30300,42000,37500,Accept,Accept,30300
+326,P15,Lighting,2,Large,21100,36900,14500,Expedite,Expedite,14500
+327,P20,HVAC rooftop units,1,Medium,4100,37400,4100,Accept,Accept,4100
+328,P18,Roofing membrane,8,Large,81300,31600,37700,Switch,Accept,81300
+329,P07,Electrical switchgear,2,Small,2000,33100,5200,Accept,Accept,2000
+330,P07,Structural steel,15,Small,13700,13500,26300,Switch,Switch,13500
+331,P12,Lighting,5,Large,49400,35800,27500,Expedite,Switch,35800
+332,P11,Roofing membrane,6,Medium,20300,14400,18800,Switch,Switch,14400
+333,P01,Lighting,9,Small,8800,10000,13500,Accept,Accept,8800
+334,P11,Roofing membrane,7,Medium,25000,15300,20500,Switch,Expedite,20500
+335,P09,Structural steel,12,Large,121400,49500,70900,Switch,Accept,121400
+336,P05,Electrical switchgear,9,Medium,29600,66100,44200,Accept,Accept,29600
+337,P02,HVAC rooftop units,1,Medium,3400,29900,3400,Accept,Accept,3400
+338,P01,Structural steel,3,Small,2900,12500,5100,Accept,Accept,2900
+339,P17,Structural steel,6,Medium,20500,30500,24400,Accept,Expedite,24400
+340,P01,Concrete & masonry,9,Small,8200,5500,11800,Switch,Switch,5500
+341,P10,Concrete & masonry,9,Small,9500,7300,14100,Switch,Accept,9500
+342,P04,HVAC rooftop units,3,Small,2700,22000,5900,Accept,Accept,2700
+343,P13,Concrete & masonry,6,Small,6700,7200,8200,Accept,Accept,6700
+344,P10,Electrical switchgear,14,Small,14900,35500,40800,Accept,Switch,35500
+345,P13,Structural steel,7,Small,7300,13500,11600,Accept,Accept,7300
+346,P16,Structural steel,11,Small,12300,16000,25200,Accept,Accept,12300
+347,P17,Concrete & masonry,4,Medium,14100,15400,12500,Expedite,Expedite,12500
+348,P02,Concrete & masonry,11,Medium,38100,13700,27800,Switch,Switch,13700
+349,P11,Concrete & masonry,4,Medium,14300,14400,11600,Expedite,Expedite,11600
+350,P03,Lighting,3,Large,28000,30800,18300,Expedite,Expedite,18300
+351,P18,Lighting,7,Large,79400,33300,49800,Switch,Switch,33300
+352,P17,Electrical switchgear,6,Medium,20400,66000,33200,Accept,Accept,20400
+353,P20,HVAC rooftop units,7,Medium,29500,47400,36100,Accept,Expedite,36100
+354,P16,Roofing membrane,6,Small,6400,8800,9000,Accept,Accept,6400
+355,P13,Concrete & masonry,13,Small,13700,7800,20100,Switch,Switch,7800
+356,P05,Structural steel,12,Medium,41800,25000,40200,Switch,Switch,25000
+357,P03,Concrete & masonry,5,Large,45500,23000,20500,Expedite,Expedite,20500
+358,P14,Structural steel,9,Medium,33000,28900,30000,Switch,Switch,28900
+359,P03,HVAC rooftop units,10,Large,97300,76900,66400,Expedite,Expedite,66400
+360,P03,Electrical switchgear,15,Large,139800,111300,125500,Switch,Switch,111300
+361,P13,Roofing membrane,3,Small,2900,8200,4000,Accept,Accept,2900
+362,P09,Structural steel,5,Large,49000,45300,28300,Expedite,Expedite,28300
+363,P16,HVAC rooftop units,10,Small,9900,21600,23200,Accept,Expedite,23200
+364,P20,Structural steel,13,Medium,53700,31300,51500,Switch,Accept,53700
+365,P10,Lighting,10,Small,10800,10000,16300,Switch,Expedite,16300
+366,P10,Electrical switchgear,12,Small,12300,38100,34600,Accept,Accept,12300
+367,P09,Structural steel,6,Large,54500,48100,38700,Expedite,Expedite,38700
+368,P18,Concrete & masonry,12,Large,128500,26800,58500,Switch,Switch,26800
+369,P03,Structural steel,11,Large,101300,47000,57300,Switch,Switch,47000
+370,P14,Structural steel,2,Medium,7200,30000,7500,Accept,Accept,7200
+371,P14,HVAC rooftop units,1,Medium,3800,37000,3800,Accept,Accept,3800
+372,P03,Concrete & masonry,13,Large,113700,22300,49400,Switch,Switch,22300
+373,P19,Electrical switchgear,11,Small,12300,41700,29800,Accept,Switch,41700
+374,P01,Concrete & masonry,5,Small,4200,6600,6300,Accept,Accept,4200
+375,P08,Structural steel,6,Medium,20000,29100,21200,Accept,Accept,20000
+376,P12,Concrete & masonry,8,Large,74900,23200,37700,Switch,Switch,23200
+377,P05,Lighting,5,Medium,16000,19900,15100,Expedite,Expedite,15100
+378,P04,Structural steel,12,Small,11600,13200,20100,Accept,Switch,13200
+379,P01,Lighting,11,Small,9100,10400,18800,Accept,Accept,9100
+380,P17,Roofing membrane,9,Medium,31400,17300,30500,Switch,Switch,17300
+381,P13,Electrical switchgear,3,Small,2900,35100,5800,Accept,Accept,2900
+382,P07,Structural steel,10,Small,9500,12400,17300,Accept,Accept,9500
+383,P03,HVAC rooftop units,2,Large,19500,63000,15700,Expedite,Expedite,15700
+384,P04,Lighting,11,Small,11000,10200,18400,Switch,Switch,10200
+385,P20,Structural steel,10,Medium,35500,29500,38700,Switch,Switch,29500
+386,P10,HVAC rooftop units,10,Small,9100,20500,20600,Accept,Accept,9100
+387,P06,Lighting,12,Large,106200,29900,60700,Switch,Switch,29900
+388,P14,Roofing membrane,8,Medium,29800,17600,24700,Switch,Accept,29800
+389,P16,Lighting,3,Small,3000,12400,5100,Accept,Switch,12400
+390,P16,Roofing membrane,4,Small,4500,10300,6400,Accept,Accept,4500
+391,P16,Structural steel,12,Small,13600,15800,21500,Accept,Accept,13600
+392,P08,Lighting,1,Medium,3300,19300,3300,Accept,Accept,3300
+393,P16,HVAC rooftop units,9,Small,8800,21600,22900,Accept,Expedite,22900
+394,P18,Concrete & masonry,13,Large,146400,26600,70200,Switch,Switch,26600
+395,P08,Lighting,14,Medium,52500,19400,43300,Switch,Expedite,43300
+396,P04,Roofing membrane,4,Small,4000,8300,5400,Accept,Accept,4000
+397,P14,Roofing membrane,10,Medium,33700,15300,27700,Switch,Switch,15300
+398,P12,HVAC rooftop units,5,Large,51800,73800,44300,Expedite,Expedite,44300
+399,P19,Lighting,14,Small,15300,13000,27900,Switch,Switch,13000
+400,P14,Concrete & masonry,5,Medium,19500,13100,15400,Switch,Switch,13100
